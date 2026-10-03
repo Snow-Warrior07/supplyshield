@@ -1,0 +1,2147 @@
+{
+  "tested_at_utc": "2026-10-03T15:32:41.253893+00:00",
+  "stress_selection": "Plan chosen before samples using the undisturbed sample; fixed purchases throughout.",
+  "stress": [
+    {
+      "seed": 41,
+      "samples": 50,
+      "policy": "Optimized recovery",
+      "fixed_purchases": {
+        "F1N": 216,
+        "F1E": 0,
+        "A1": 0,
+        "F2N": 92,
+        "F2E": 0,
+        "A2": 0,
+        "F3N": 92,
+        "F3E": 0,
+        "A3": 0,
+        "F4N": 65,
+        "F4E": 0,
+        "A4": 0,
+        "F5N": 125,
+        "F5E": 0,
+        "A5": 0,
+        "F6N": 33,
+        "F6E": 0,
+        "A6": 0,
+        "F7N": 44,
+        "F7E": 0,
+        "A7": 0,
+        "F8N": 44,
+        "F8E": 0,
+        "L17": 0,
+        "L18": 0,
+        "L19": 0,
+        "L20": 0
+      },
+      "assumptions": "Independent uniform choices: 0/50/100% capacity, 0/3/8 days extra delay, 80/100/120% demand (rounded up per order). These are assumptions, not estimated probabilities.",
+      "mean_fill_rate": 0.5212835048749541,
+      "worst_fill_rate": 0.21354166666666666,
+      "p10_fill_rate": 0.21354166666666666,
+      "outcomes": [
+        {
+          "sample": 1,
+          "capacity_percent": 50,
+          "additional_delay": 3,
+          "demand_percent": 80,
+          "fulfilled": 107,
+          "fill_rate": 0.7985074626865671,
+          "score": 269,
+          "committed_purchase_cost": 119480,
+          "received_units": 629,
+          "late_or_unavailable_units": 82
+        },
+        {
+          "sample": 2,
+          "capacity_percent": 0,
+          "additional_delay": 3,
+          "demand_percent": 120,
+          "fulfilled": 41,
+          "fill_rate": 0.21354166666666666,
+          "score": 160,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 3,
+          "capacity_percent": 100,
+          "additional_delay": 3,
+          "demand_percent": 120,
+          "fulfilled": 149,
+          "fill_rate": 0.7760416666666666,
+          "score": 340,
+          "committed_purchase_cost": 119480,
+          "received_units": 711,
+          "late_or_unavailable_units": 0
+        },
+        {
+          "sample": 4,
+          "capacity_percent": 50,
+          "additional_delay": 3,
+          "demand_percent": 120,
+          "fulfilled": 108,
+          "fill_rate": 0.5625,
+          "score": 294,
+          "committed_purchase_cost": 119480,
+          "received_units": 629,
+          "late_or_unavailable_units": 82
+        },
+        {
+          "sample": 5,
+          "capacity_percent": 100,
+          "additional_delay": 0,
+          "demand_percent": 80,
+          "fulfilled": 134,
+          "fill_rate": 1.0,
+          "score": 296,
+          "committed_purchase_cost": 119480,
+          "received_units": 711,
+          "late_or_unavailable_units": 0
+        },
+        {
+          "sample": 6,
+          "capacity_percent": 100,
+          "additional_delay": 0,
+          "demand_percent": 100,
+          "fulfilled": 149,
+          "fill_rate": 1.0,
+          "score": 324,
+          "committed_purchase_cost": 119480,
+          "received_units": 711,
+          "late_or_unavailable_units": 0
+        },
+        {
+          "sample": 7,
+          "capacity_percent": 0,
+          "additional_delay": 0,
+          "demand_percent": 120,
+          "fulfilled": 41,
+          "fill_rate": 0.21354166666666666,
+          "score": 160,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 8,
+          "capacity_percent": 50,
+          "additional_delay": 0,
+          "demand_percent": 100,
+          "fulfilled": 108,
+          "fill_rate": 0.7248322147651006,
+          "score": 283,
+          "committed_purchase_cost": 119480,
+          "received_units": 629,
+          "late_or_unavailable_units": 82
+        },
+        {
+          "sample": 9,
+          "capacity_percent": 100,
+          "additional_delay": 8,
+          "demand_percent": 120,
+          "fulfilled": 41,
+          "fill_rate": 0.21354166666666666,
+          "score": 160,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 10,
+          "capacity_percent": 100,
+          "additional_delay": 0,
+          "demand_percent": 80,
+          "fulfilled": 134,
+          "fill_rate": 1.0,
+          "score": 296,
+          "committed_purchase_cost": 119480,
+          "received_units": 711,
+          "late_or_unavailable_units": 0
+        },
+        {
+          "sample": 11,
+          "capacity_percent": 100,
+          "additional_delay": 0,
+          "demand_percent": 100,
+          "fulfilled": 149,
+          "fill_rate": 1.0,
+          "score": 324,
+          "committed_purchase_cost": 119480,
+          "received_units": 711,
+          "late_or_unavailable_units": 0
+        },
+        {
+          "sample": 12,
+          "capacity_percent": 50,
+          "additional_delay": 8,
+          "demand_percent": 80,
+          "fulfilled": 40,
+          "fill_rate": 0.29850746268656714,
+          "score": 154,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 13,
+          "capacity_percent": 0,
+          "additional_delay": 8,
+          "demand_percent": 100,
+          "fulfilled": 41,
+          "fill_rate": 0.2751677852348993,
+          "score": 160,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 14,
+          "capacity_percent": 100,
+          "additional_delay": 3,
+          "demand_percent": 80,
+          "fulfilled": 134,
+          "fill_rate": 1.0,
+          "score": 296,
+          "committed_purchase_cost": 119480,
+          "received_units": 711,
+          "late_or_unavailable_units": 0
+        },
+        {
+          "sample": 15,
+          "capacity_percent": 100,
+          "additional_delay": 8,
+          "demand_percent": 80,
+          "fulfilled": 40,
+          "fill_rate": 0.29850746268656714,
+          "score": 154,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 16,
+          "capacity_percent": 0,
+          "additional_delay": 0,
+          "demand_percent": 80,
+          "fulfilled": 40,
+          "fill_rate": 0.29850746268656714,
+          "score": 154,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 17,
+          "capacity_percent": 100,
+          "additional_delay": 0,
+          "demand_percent": 80,
+          "fulfilled": 134,
+          "fill_rate": 1.0,
+          "score": 296,
+          "committed_purchase_cost": 119480,
+          "received_units": 711,
+          "late_or_unavailable_units": 0
+        },
+        {
+          "sample": 18,
+          "capacity_percent": 50,
+          "additional_delay": 3,
+          "demand_percent": 80,
+          "fulfilled": 107,
+          "fill_rate": 0.7985074626865671,
+          "score": 269,
+          "committed_purchase_cost": 119480,
+          "received_units": 629,
+          "late_or_unavailable_units": 82
+        },
+        {
+          "sample": 19,
+          "capacity_percent": 100,
+          "additional_delay": 0,
+          "demand_percent": 120,
+          "fulfilled": 149,
+          "fill_rate": 0.7760416666666666,
+          "score": 340,
+          "committed_purchase_cost": 119480,
+          "received_units": 711,
+          "late_or_unavailable_units": 0
+        },
+        {
+          "sample": 20,
+          "capacity_percent": 100,
+          "additional_delay": 0,
+          "demand_percent": 100,
+          "fulfilled": 149,
+          "fill_rate": 1.0,
+          "score": 324,
+          "committed_purchase_cost": 119480,
+          "received_units": 711,
+          "late_or_unavailable_units": 0
+        },
+        {
+          "sample": 21,
+          "capacity_percent": 0,
+          "additional_delay": 3,
+          "demand_percent": 100,
+          "fulfilled": 41,
+          "fill_rate": 0.2751677852348993,
+          "score": 160,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 22,
+          "capacity_percent": 0,
+          "additional_delay": 0,
+          "demand_percent": 120,
+          "fulfilled": 41,
+          "fill_rate": 0.21354166666666666,
+          "score": 160,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 23,
+          "capacity_percent": 0,
+          "additional_delay": 3,
+          "demand_percent": 80,
+          "fulfilled": 40,
+          "fill_rate": 0.29850746268656714,
+          "score": 154,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 24,
+          "capacity_percent": 100,
+          "additional_delay": 8,
+          "demand_percent": 100,
+          "fulfilled": 41,
+          "fill_rate": 0.2751677852348993,
+          "score": 160,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 25,
+          "capacity_percent": 50,
+          "additional_delay": 0,
+          "demand_percent": 80,
+          "fulfilled": 107,
+          "fill_rate": 0.7985074626865671,
+          "score": 269,
+          "committed_purchase_cost": 119480,
+          "received_units": 629,
+          "late_or_unavailable_units": 82
+        },
+        {
+          "sample": 26,
+          "capacity_percent": 0,
+          "additional_delay": 0,
+          "demand_percent": 80,
+          "fulfilled": 40,
+          "fill_rate": 0.29850746268656714,
+          "score": 154,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 27,
+          "capacity_percent": 50,
+          "additional_delay": 8,
+          "demand_percent": 100,
+          "fulfilled": 41,
+          "fill_rate": 0.2751677852348993,
+          "score": 160,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 28,
+          "capacity_percent": 50,
+          "additional_delay": 8,
+          "demand_percent": 120,
+          "fulfilled": 41,
+          "fill_rate": 0.21354166666666666,
+          "score": 160,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 29,
+          "capacity_percent": 50,
+          "additional_delay": 8,
+          "demand_percent": 80,
+          "fulfilled": 40,
+          "fill_rate": 0.29850746268656714,
+          "score": 154,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 30,
+          "capacity_percent": 0,
+          "additional_delay": 8,
+          "demand_percent": 100,
+          "fulfilled": 41,
+          "fill_rate": 0.2751677852348993,
+          "score": 160,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 31,
+          "capacity_percent": 50,
+          "additional_delay": 0,
+          "demand_percent": 80,
+          "fulfilled": 107,
+          "fill_rate": 0.7985074626865671,
+          "score": 269,
+          "committed_purchase_cost": 119480,
+          "received_units": 629,
+          "late_or_unavailable_units": 82
+        },
+        {
+          "sample": 32,
+          "capacity_percent": 0,
+          "additional_delay": 8,
+          "demand_percent": 80,
+          "fulfilled": 40,
+          "fill_rate": 0.29850746268656714,
+          "score": 154,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 33,
+          "capacity_percent": 100,
+          "additional_delay": 8,
+          "demand_percent": 80,
+          "fulfilled": 40,
+          "fill_rate": 0.29850746268656714,
+          "score": 154,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 34,
+          "capacity_percent": 100,
+          "additional_delay": 8,
+          "demand_percent": 80,
+          "fulfilled": 40,
+          "fill_rate": 0.29850746268656714,
+          "score": 154,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 35,
+          "capacity_percent": 50,
+          "additional_delay": 8,
+          "demand_percent": 120,
+          "fulfilled": 41,
+          "fill_rate": 0.21354166666666666,
+          "score": 160,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 36,
+          "capacity_percent": 100,
+          "additional_delay": 0,
+          "demand_percent": 120,
+          "fulfilled": 149,
+          "fill_rate": 0.7760416666666666,
+          "score": 340,
+          "committed_purchase_cost": 119480,
+          "received_units": 711,
+          "late_or_unavailable_units": 0
+        },
+        {
+          "sample": 37,
+          "capacity_percent": 100,
+          "additional_delay": 3,
+          "demand_percent": 120,
+          "fulfilled": 149,
+          "fill_rate": 0.7760416666666666,
+          "score": 340,
+          "committed_purchase_cost": 119480,
+          "received_units": 711,
+          "late_or_unavailable_units": 0
+        },
+        {
+          "sample": 38,
+          "capacity_percent": 0,
+          "additional_delay": 0,
+          "demand_percent": 80,
+          "fulfilled": 40,
+          "fill_rate": 0.29850746268656714,
+          "score": 154,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 39,
+          "capacity_percent": 50,
+          "additional_delay": 3,
+          "demand_percent": 120,
+          "fulfilled": 108,
+          "fill_rate": 0.5625,
+          "score": 294,
+          "committed_purchase_cost": 119480,
+          "received_units": 629,
+          "late_or_unavailable_units": 82
+        },
+        {
+          "sample": 40,
+          "capacity_percent": 50,
+          "additional_delay": 8,
+          "demand_percent": 120,
+          "fulfilled": 41,
+          "fill_rate": 0.21354166666666666,
+          "score": 160,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 41,
+          "capacity_percent": 50,
+          "additional_delay": 3,
+          "demand_percent": 80,
+          "fulfilled": 107,
+          "fill_rate": 0.7985074626865671,
+          "score": 269,
+          "committed_purchase_cost": 119480,
+          "received_units": 629,
+          "late_or_unavailable_units": 82
+        },
+        {
+          "sample": 42,
+          "capacity_percent": 100,
+          "additional_delay": 3,
+          "demand_percent": 120,
+          "fulfilled": 149,
+          "fill_rate": 0.7760416666666666,
+          "score": 340,
+          "committed_purchase_cost": 119480,
+          "received_units": 711,
+          "late_or_unavailable_units": 0
+        },
+        {
+          "sample": 43,
+          "capacity_percent": 0,
+          "additional_delay": 8,
+          "demand_percent": 80,
+          "fulfilled": 40,
+          "fill_rate": 0.29850746268656714,
+          "score": 154,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 44,
+          "capacity_percent": 50,
+          "additional_delay": 3,
+          "demand_percent": 120,
+          "fulfilled": 108,
+          "fill_rate": 0.5625,
+          "score": 294,
+          "committed_purchase_cost": 119480,
+          "received_units": 629,
+          "late_or_unavailable_units": 82
+        },
+        {
+          "sample": 45,
+          "capacity_percent": 50,
+          "additional_delay": 8,
+          "demand_percent": 100,
+          "fulfilled": 41,
+          "fill_rate": 0.2751677852348993,
+          "score": 160,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 46,
+          "capacity_percent": 50,
+          "additional_delay": 3,
+          "demand_percent": 120,
+          "fulfilled": 108,
+          "fill_rate": 0.5625,
+          "score": 294,
+          "committed_purchase_cost": 119480,
+          "received_units": 629,
+          "late_or_unavailable_units": 82
+        },
+        {
+          "sample": 47,
+          "capacity_percent": 0,
+          "additional_delay": 0,
+          "demand_percent": 120,
+          "fulfilled": 41,
+          "fill_rate": 0.21354166666666666,
+          "score": 160,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 48,
+          "capacity_percent": 0,
+          "additional_delay": 0,
+          "demand_percent": 80,
+          "fulfilled": 40,
+          "fill_rate": 0.29850746268656714,
+          "score": 154,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 49,
+          "capacity_percent": 0,
+          "additional_delay": 0,
+          "demand_percent": 100,
+          "fulfilled": 41,
+          "fill_rate": 0.2751677852348993,
+          "score": 160,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 50,
+          "capacity_percent": 100,
+          "additional_delay": 0,
+          "demand_percent": 80,
+          "fulfilled": 134,
+          "fill_rate": 1.0,
+          "score": 296,
+          "committed_purchase_cost": 119480,
+          "received_units": 711,
+          "late_or_unavailable_units": 0
+        }
+      ],
+      "perfect_information": false
+    },
+    {
+      "seed": 97,
+      "samples": 50,
+      "policy": "Optimized recovery",
+      "fixed_purchases": {
+        "F1N": 216,
+        "F1E": 0,
+        "A1": 0,
+        "F2N": 92,
+        "F2E": 0,
+        "A2": 0,
+        "F3N": 92,
+        "F3E": 0,
+        "A3": 0,
+        "F4N": 65,
+        "F4E": 0,
+        "A4": 0,
+        "F5N": 125,
+        "F5E": 0,
+        "A5": 0,
+        "F6N": 33,
+        "F6E": 0,
+        "A6": 0,
+        "F7N": 44,
+        "F7E": 0,
+        "A7": 0,
+        "F8N": 44,
+        "F8E": 0,
+        "L17": 0,
+        "L18": 0,
+        "L19": 0,
+        "L20": 0
+      },
+      "assumptions": "Independent uniform choices: 0/50/100% capacity, 0/3/8 days extra delay, 80/100/120% demand (rounded up per order). These are assumptions, not estimated probabilities.",
+      "mean_fill_rate": 0.5095110646432268,
+      "worst_fill_rate": 0.21354166666666666,
+      "p10_fill_rate": 0.21354166666666666,
+      "outcomes": [
+        {
+          "sample": 1,
+          "capacity_percent": 0,
+          "additional_delay": 3,
+          "demand_percent": 100,
+          "fulfilled": 41,
+          "fill_rate": 0.2751677852348993,
+          "score": 160,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 2,
+          "capacity_percent": 0,
+          "additional_delay": 8,
+          "demand_percent": 80,
+          "fulfilled": 40,
+          "fill_rate": 0.29850746268656714,
+          "score": 154,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 3,
+          "capacity_percent": 100,
+          "additional_delay": 0,
+          "demand_percent": 80,
+          "fulfilled": 134,
+          "fill_rate": 1.0,
+          "score": 296,
+          "committed_purchase_cost": 119480,
+          "received_units": 711,
+          "late_or_unavailable_units": 0
+        },
+        {
+          "sample": 4,
+          "capacity_percent": 100,
+          "additional_delay": 3,
+          "demand_percent": 100,
+          "fulfilled": 149,
+          "fill_rate": 1.0,
+          "score": 324,
+          "committed_purchase_cost": 119480,
+          "received_units": 711,
+          "late_or_unavailable_units": 0
+        },
+        {
+          "sample": 5,
+          "capacity_percent": 0,
+          "additional_delay": 0,
+          "demand_percent": 120,
+          "fulfilled": 41,
+          "fill_rate": 0.21354166666666666,
+          "score": 160,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 6,
+          "capacity_percent": 50,
+          "additional_delay": 3,
+          "demand_percent": 120,
+          "fulfilled": 108,
+          "fill_rate": 0.5625,
+          "score": 294,
+          "committed_purchase_cost": 119480,
+          "received_units": 629,
+          "late_or_unavailable_units": 82
+        },
+        {
+          "sample": 7,
+          "capacity_percent": 0,
+          "additional_delay": 3,
+          "demand_percent": 80,
+          "fulfilled": 40,
+          "fill_rate": 0.29850746268656714,
+          "score": 154,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 8,
+          "capacity_percent": 50,
+          "additional_delay": 0,
+          "demand_percent": 100,
+          "fulfilled": 108,
+          "fill_rate": 0.7248322147651006,
+          "score": 283,
+          "committed_purchase_cost": 119480,
+          "received_units": 629,
+          "late_or_unavailable_units": 82
+        },
+        {
+          "sample": 9,
+          "capacity_percent": 50,
+          "additional_delay": 8,
+          "demand_percent": 80,
+          "fulfilled": 40,
+          "fill_rate": 0.29850746268656714,
+          "score": 154,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 10,
+          "capacity_percent": 0,
+          "additional_delay": 0,
+          "demand_percent": 80,
+          "fulfilled": 40,
+          "fill_rate": 0.29850746268656714,
+          "score": 154,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 11,
+          "capacity_percent": 100,
+          "additional_delay": 8,
+          "demand_percent": 80,
+          "fulfilled": 40,
+          "fill_rate": 0.29850746268656714,
+          "score": 154,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 12,
+          "capacity_percent": 0,
+          "additional_delay": 8,
+          "demand_percent": 80,
+          "fulfilled": 40,
+          "fill_rate": 0.29850746268656714,
+          "score": 154,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 13,
+          "capacity_percent": 0,
+          "additional_delay": 0,
+          "demand_percent": 120,
+          "fulfilled": 41,
+          "fill_rate": 0.21354166666666666,
+          "score": 160,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 14,
+          "capacity_percent": 100,
+          "additional_delay": 3,
+          "demand_percent": 120,
+          "fulfilled": 149,
+          "fill_rate": 0.7760416666666666,
+          "score": 340,
+          "committed_purchase_cost": 119480,
+          "received_units": 711,
+          "late_or_unavailable_units": 0
+        },
+        {
+          "sample": 15,
+          "capacity_percent": 0,
+          "additional_delay": 8,
+          "demand_percent": 80,
+          "fulfilled": 40,
+          "fill_rate": 0.29850746268656714,
+          "score": 154,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 16,
+          "capacity_percent": 50,
+          "additional_delay": 0,
+          "demand_percent": 80,
+          "fulfilled": 107,
+          "fill_rate": 0.7985074626865671,
+          "score": 269,
+          "committed_purchase_cost": 119480,
+          "received_units": 629,
+          "late_or_unavailable_units": 82
+        },
+        {
+          "sample": 17,
+          "capacity_percent": 0,
+          "additional_delay": 0,
+          "demand_percent": 120,
+          "fulfilled": 41,
+          "fill_rate": 0.21354166666666666,
+          "score": 160,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 18,
+          "capacity_percent": 0,
+          "additional_delay": 8,
+          "demand_percent": 80,
+          "fulfilled": 40,
+          "fill_rate": 0.29850746268656714,
+          "score": 154,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 19,
+          "capacity_percent": 50,
+          "additional_delay": 0,
+          "demand_percent": 120,
+          "fulfilled": 108,
+          "fill_rate": 0.5625,
+          "score": 294,
+          "committed_purchase_cost": 119480,
+          "received_units": 629,
+          "late_or_unavailable_units": 82
+        },
+        {
+          "sample": 20,
+          "capacity_percent": 100,
+          "additional_delay": 0,
+          "demand_percent": 80,
+          "fulfilled": 134,
+          "fill_rate": 1.0,
+          "score": 296,
+          "committed_purchase_cost": 119480,
+          "received_units": 711,
+          "late_or_unavailable_units": 0
+        },
+        {
+          "sample": 21,
+          "capacity_percent": 0,
+          "additional_delay": 8,
+          "demand_percent": 80,
+          "fulfilled": 40,
+          "fill_rate": 0.29850746268656714,
+          "score": 154,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 22,
+          "capacity_percent": 0,
+          "additional_delay": 3,
+          "demand_percent": 80,
+          "fulfilled": 40,
+          "fill_rate": 0.29850746268656714,
+          "score": 154,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 23,
+          "capacity_percent": 100,
+          "additional_delay": 8,
+          "demand_percent": 120,
+          "fulfilled": 41,
+          "fill_rate": 0.21354166666666666,
+          "score": 160,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 24,
+          "capacity_percent": 50,
+          "additional_delay": 0,
+          "demand_percent": 120,
+          "fulfilled": 108,
+          "fill_rate": 0.5625,
+          "score": 294,
+          "committed_purchase_cost": 119480,
+          "received_units": 629,
+          "late_or_unavailable_units": 82
+        },
+        {
+          "sample": 25,
+          "capacity_percent": 100,
+          "additional_delay": 0,
+          "demand_percent": 120,
+          "fulfilled": 149,
+          "fill_rate": 0.7760416666666666,
+          "score": 340,
+          "committed_purchase_cost": 119480,
+          "received_units": 711,
+          "late_or_unavailable_units": 0
+        },
+        {
+          "sample": 26,
+          "capacity_percent": 50,
+          "additional_delay": 8,
+          "demand_percent": 100,
+          "fulfilled": 41,
+          "fill_rate": 0.2751677852348993,
+          "score": 160,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 27,
+          "capacity_percent": 0,
+          "additional_delay": 0,
+          "demand_percent": 120,
+          "fulfilled": 41,
+          "fill_rate": 0.21354166666666666,
+          "score": 160,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 28,
+          "capacity_percent": 100,
+          "additional_delay": 0,
+          "demand_percent": 80,
+          "fulfilled": 134,
+          "fill_rate": 1.0,
+          "score": 296,
+          "committed_purchase_cost": 119480,
+          "received_units": 711,
+          "late_or_unavailable_units": 0
+        },
+        {
+          "sample": 29,
+          "capacity_percent": 100,
+          "additional_delay": 8,
+          "demand_percent": 120,
+          "fulfilled": 41,
+          "fill_rate": 0.21354166666666666,
+          "score": 160,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 30,
+          "capacity_percent": 100,
+          "additional_delay": 8,
+          "demand_percent": 120,
+          "fulfilled": 41,
+          "fill_rate": 0.21354166666666666,
+          "score": 160,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 31,
+          "capacity_percent": 0,
+          "additional_delay": 8,
+          "demand_percent": 100,
+          "fulfilled": 41,
+          "fill_rate": 0.2751677852348993,
+          "score": 160,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 32,
+          "capacity_percent": 50,
+          "additional_delay": 3,
+          "demand_percent": 80,
+          "fulfilled": 107,
+          "fill_rate": 0.7985074626865671,
+          "score": 269,
+          "committed_purchase_cost": 119480,
+          "received_units": 629,
+          "late_or_unavailable_units": 82
+        },
+        {
+          "sample": 33,
+          "capacity_percent": 50,
+          "additional_delay": 0,
+          "demand_percent": 120,
+          "fulfilled": 108,
+          "fill_rate": 0.5625,
+          "score": 294,
+          "committed_purchase_cost": 119480,
+          "received_units": 629,
+          "late_or_unavailable_units": 82
+        },
+        {
+          "sample": 34,
+          "capacity_percent": 100,
+          "additional_delay": 3,
+          "demand_percent": 120,
+          "fulfilled": 149,
+          "fill_rate": 0.7760416666666666,
+          "score": 340,
+          "committed_purchase_cost": 119480,
+          "received_units": 711,
+          "late_or_unavailable_units": 0
+        },
+        {
+          "sample": 35,
+          "capacity_percent": 50,
+          "additional_delay": 3,
+          "demand_percent": 80,
+          "fulfilled": 107,
+          "fill_rate": 0.7985074626865671,
+          "score": 269,
+          "committed_purchase_cost": 119480,
+          "received_units": 629,
+          "late_or_unavailable_units": 82
+        },
+        {
+          "sample": 36,
+          "capacity_percent": 0,
+          "additional_delay": 0,
+          "demand_percent": 80,
+          "fulfilled": 40,
+          "fill_rate": 0.29850746268656714,
+          "score": 154,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 37,
+          "capacity_percent": 50,
+          "additional_delay": 3,
+          "demand_percent": 80,
+          "fulfilled": 107,
+          "fill_rate": 0.7985074626865671,
+          "score": 269,
+          "committed_purchase_cost": 119480,
+          "received_units": 629,
+          "late_or_unavailable_units": 82
+        },
+        {
+          "sample": 38,
+          "capacity_percent": 100,
+          "additional_delay": 8,
+          "demand_percent": 120,
+          "fulfilled": 41,
+          "fill_rate": 0.21354166666666666,
+          "score": 160,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 39,
+          "capacity_percent": 100,
+          "additional_delay": 8,
+          "demand_percent": 120,
+          "fulfilled": 41,
+          "fill_rate": 0.21354166666666666,
+          "score": 160,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 40,
+          "capacity_percent": 0,
+          "additional_delay": 8,
+          "demand_percent": 80,
+          "fulfilled": 40,
+          "fill_rate": 0.29850746268656714,
+          "score": 154,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 41,
+          "capacity_percent": 50,
+          "additional_delay": 0,
+          "demand_percent": 80,
+          "fulfilled": 107,
+          "fill_rate": 0.7985074626865671,
+          "score": 269,
+          "committed_purchase_cost": 119480,
+          "received_units": 629,
+          "late_or_unavailable_units": 82
+        },
+        {
+          "sample": 42,
+          "capacity_percent": 100,
+          "additional_delay": 3,
+          "demand_percent": 80,
+          "fulfilled": 134,
+          "fill_rate": 1.0,
+          "score": 296,
+          "committed_purchase_cost": 119480,
+          "received_units": 711,
+          "late_or_unavailable_units": 0
+        },
+        {
+          "sample": 43,
+          "capacity_percent": 50,
+          "additional_delay": 3,
+          "demand_percent": 120,
+          "fulfilled": 108,
+          "fill_rate": 0.5625,
+          "score": 294,
+          "committed_purchase_cost": 119480,
+          "received_units": 629,
+          "late_or_unavailable_units": 82
+        },
+        {
+          "sample": 44,
+          "capacity_percent": 0,
+          "additional_delay": 0,
+          "demand_percent": 120,
+          "fulfilled": 41,
+          "fill_rate": 0.21354166666666666,
+          "score": 160,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 45,
+          "capacity_percent": 50,
+          "additional_delay": 8,
+          "demand_percent": 80,
+          "fulfilled": 40,
+          "fill_rate": 0.29850746268656714,
+          "score": 154,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 46,
+          "capacity_percent": 0,
+          "additional_delay": 8,
+          "demand_percent": 100,
+          "fulfilled": 41,
+          "fill_rate": 0.2751677852348993,
+          "score": 160,
+          "committed_purchase_cost": 119480,
+          "received_units": 495,
+          "late_or_unavailable_units": 216
+        },
+        {
+          "sample": 47,
+          "capacity_percent": 50,
+          "additional_delay": 0,
+          "demand_percent": 100,
+          "fulfilled": 108,
+          "fill_rate": 0.7248322147651006,
+          "score": 283,
+          "committed_purchase_cost": 119480,
+          "received_units": 629,
+          "late_or_unavailable_units": 82
+        },
+        {
+          "sample": 48,
+          "capacity_percent": 100,
+          "additional_delay": 0,
+          "demand_percent": 120,
+          "fulfilled": 149,
+          "fill_rate": 0.7760416666666666,
+          "score": 340,
+          "committed_purchase_cost": 119480,
+          "received_units": 711,
+          "late_or_unavailable_units": 0
+        },
+        {
+          "sample": 49,
+          "capacity_percent": 100,
+          "additional_delay": 0,
+          "demand_percent": 100,
+          "fulfilled": 149,
+          "fill_rate": 1.0,
+          "score": 324,
+          "committed_purchase_cost": 119480,
+          "received_units": 711,
+          "late_or_unavailable_units": 0
+        },
+        {
+          "sample": 50,
+          "capacity_percent": 100,
+          "additional_delay": 0,
+          "demand_percent": 80,
+          "fulfilled": 134,
+          "fill_rate": 1.0,
+          "score": 296,
+          "committed_purchase_cost": 119480,
+          "received_units": 711,
+          "late_or_unavailable_units": 0
+        }
+      ],
+      "perfect_information": false
+    }
+  ],
+  "budget_sensitivity": [
+    {
+      "budget": 0,
+      "metrics": [
+        {
+          "policy": "Existing sourcing",
+          "fulfilled": 24,
+          "demand": 149,
+          "fill_rate": 0.1610738255033557,
+          "weighted_fill_rate": 0.18518518518518517,
+          "score": 60,
+          "unfulfilled": 125,
+          "cost": 0,
+          "sales_exposure": 2119000,
+          "status": "FEASIBLE",
+          "seconds": 0.00023070001043379307,
+          "feasible": true
+        },
+        {
+          "policy": "Greedy recovery",
+          "fulfilled": 24,
+          "demand": 149,
+          "fill_rate": 0.1610738255033557,
+          "weighted_fill_rate": 0.18518518518518517,
+          "score": 60,
+          "unfulfilled": 125,
+          "cost": 0,
+          "sales_exposure": 2119000,
+          "status": "FEASIBLE",
+          "seconds": 0.00020009998115710914,
+          "feasible": true
+        },
+        {
+          "policy": "Optimized recovery",
+          "fulfilled": 24,
+          "demand": 149,
+          "fill_rate": 0.1610738255033557,
+          "weighted_fill_rate": 0.18518518518518517,
+          "score": 60,
+          "unfulfilled": 125,
+          "cost": 0,
+          "sales_exposure": 2119000,
+          "status": "OPTIMAL",
+          "seconds": 0.004706300009274855,
+          "feasible": true
+        }
+      ],
+      "checks": [
+        {
+          "valid": true,
+          "errors": [],
+          "cost": 0,
+          "assembly_used": 204,
+          "consumed": {
+            "C1": 42,
+            "C2": 18,
+            "C3": 18,
+            "C5": 24,
+            "C4": 12,
+            "C6": 6,
+            "C7": 0,
+            "C8": 0
+          },
+          "purchased": {
+            "C1": 0,
+            "C2": 0,
+            "C3": 0,
+            "C4": 0,
+            "C5": 0,
+            "C6": 0,
+            "C7": 0,
+            "C8": 0
+          }
+        },
+        {
+          "valid": true,
+          "errors": [],
+          "cost": 0,
+          "assembly_used": 204,
+          "consumed": {
+            "C1": 42,
+            "C2": 18,
+            "C3": 18,
+            "C5": 24,
+            "C4": 12,
+            "C6": 6,
+            "C7": 0,
+            "C8": 0
+          },
+          "purchased": {
+            "C1": 0,
+            "C2": 0,
+            "C3": 0,
+            "C4": 0,
+            "C5": 0,
+            "C6": 0,
+            "C7": 0,
+            "C8": 0
+          }
+        },
+        {
+          "valid": true,
+          "errors": [],
+          "cost": 0,
+          "assembly_used": 204,
+          "consumed": {
+            "C1": 42,
+            "C2": 18,
+            "C3": 18,
+            "C5": 24,
+            "C4": 12,
+            "C6": 6,
+            "C7": 0,
+            "C8": 0
+          },
+          "purchased": {
+            "C1": 0,
+            "C2": 0,
+            "C3": 0,
+            "C4": 0,
+            "C5": 0,
+            "C6": 0,
+            "C7": 0,
+            "C8": 0
+          }
+        }
+      ]
+    },
+    {
+      "budget": 20000,
+      "metrics": [
+        {
+          "policy": "Existing sourcing",
+          "fulfilled": 37,
+          "demand": 149,
+          "fill_rate": 0.2483221476510067,
+          "weighted_fill_rate": 0.4506172839506173,
+          "score": 146,
+          "unfulfilled": 112,
+          "cost": 19820,
+          "sales_exposure": 1873000,
+          "status": "FEASIBLE",
+          "seconds": 0.00035200000274926424,
+          "feasible": true
+        },
+        {
+          "policy": "Greedy recovery",
+          "fulfilled": 37,
+          "demand": 149,
+          "fill_rate": 0.2483221476510067,
+          "weighted_fill_rate": 0.4506172839506173,
+          "score": 146,
+          "unfulfilled": 112,
+          "cost": 19820,
+          "sales_exposure": 1873000,
+          "status": "FEASIBLE",
+          "seconds": 0.0002741999924182892,
+          "feasible": true
+        },
+        {
+          "policy": "Optimized recovery",
+          "fulfilled": 39,
+          "demand": 149,
+          "fill_rate": 0.26174496644295303,
+          "weighted_fill_rate": 0.4567901234567901,
+          "score": 148,
+          "unfulfilled": 110,
+          "cost": 19640,
+          "sales_exposure": 1852000,
+          "status": "OPTIMAL",
+          "seconds": 0.012822900025639683,
+          "feasible": true
+        }
+      ],
+      "checks": [
+        {
+          "valid": true,
+          "errors": [],
+          "cost": 19820,
+          "assembly_used": 368,
+          "consumed": {
+            "C1": 38,
+            "C2": 1,
+            "C3": 1,
+            "C5": 37,
+            "C4": 72,
+            "C6": 36,
+            "C7": 0,
+            "C8": 0
+          },
+          "purchased": {
+            "C1": 0,
+            "C2": 0,
+            "C3": 0,
+            "C4": 59,
+            "C5": 13,
+            "C6": 30,
+            "C7": 0,
+            "C8": 0
+          }
+        },
+        {
+          "valid": true,
+          "errors": [],
+          "cost": 19820,
+          "assembly_used": 368,
+          "consumed": {
+            "C1": 38,
+            "C2": 1,
+            "C3": 1,
+            "C5": 37,
+            "C4": 72,
+            "C6": 36,
+            "C7": 0,
+            "C8": 0
+          },
+          "purchased": {
+            "C1": 0,
+            "C2": 0,
+            "C3": 0,
+            "C4": 59,
+            "C5": 13,
+            "C6": 30,
+            "C7": 0,
+            "C8": 0
+          }
+        },
+        {
+          "valid": true,
+          "errors": [],
+          "cost": 19640,
+          "assembly_used": 382,
+          "consumed": {
+            "C1": 43,
+            "C2": 4,
+            "C3": 4,
+            "C5": 39,
+            "C4": 70,
+            "C6": 35,
+            "C7": 0,
+            "C8": 0
+          },
+          "purchased": {
+            "C1": 0,
+            "C2": 0,
+            "C3": 0,
+            "C4": 57,
+            "C5": 15,
+            "C6": 29,
+            "C7": 0,
+            "C8": 0
+          }
+        }
+      ]
+    },
+    {
+      "budget": 50000,
+      "metrics": [
+        {
+          "policy": "Existing sourcing",
+          "fulfilled": 41,
+          "demand": 149,
+          "fill_rate": 0.2751677852348993,
+          "weighted_fill_rate": 0.49382716049382713,
+          "score": 160,
+          "unfulfilled": 108,
+          "cost": 22360,
+          "sales_exposure": 1816000,
+          "status": "FEASIBLE",
+          "seconds": 0.0003163999936077744,
+          "feasible": true
+        },
+        {
+          "policy": "Greedy recovery",
+          "fulfilled": 77,
+          "demand": 149,
+          "fill_rate": 0.5167785234899329,
+          "weighted_fill_rate": 0.7160493827160493,
+          "score": 232,
+          "unfulfilled": 72,
+          "cost": 49240,
+          "sales_exposure": 1384000,
+          "status": "FEASIBLE",
+          "seconds": 0.000524800008861348,
+          "feasible": true
+        },
+        {
+          "policy": "Optimized recovery",
+          "fulfilled": 77,
+          "demand": 149,
+          "fill_rate": 0.5167785234899329,
+          "weighted_fill_rate": 0.7160493827160493,
+          "score": 232,
+          "unfulfilled": 72,
+          "cost": 49240,
+          "sales_exposure": 1384000,
+          "status": "OPTIMAL",
+          "seconds": 0.012080399988917634,
+          "feasible": true
+        }
+      ],
+      "checks": [
+        {
+          "valid": true,
+          "errors": [],
+          "cost": 22360,
+          "assembly_used": 406,
+          "consumed": {
+            "C1": 43,
+            "C2": 2,
+            "C3": 2,
+            "C5": 41,
+            "C4": 78,
+            "C6": 39,
+            "C7": 0,
+            "C8": 0
+          },
+          "purchased": {
+            "C1": 0,
+            "C2": 0,
+            "C3": 0,
+            "C4": 65,
+            "C5": 17,
+            "C6": 33,
+            "C7": 0,
+            "C8": 0
+          }
+        },
+        {
+          "valid": true,
+          "errors": [],
+          "cost": 49240,
+          "assembly_used": 694,
+          "consumed": {
+            "C1": 115,
+            "C2": 38,
+            "C3": 38,
+            "C5": 77,
+            "C4": 78,
+            "C6": 39,
+            "C7": 0,
+            "C8": 0
+          },
+          "purchased": {
+            "C1": 72,
+            "C2": 20,
+            "C3": 20,
+            "C4": 65,
+            "C5": 53,
+            "C6": 33,
+            "C7": 0,
+            "C8": 0
+          }
+        },
+        {
+          "valid": true,
+          "errors": [],
+          "cost": 49240,
+          "assembly_used": 694,
+          "consumed": {
+            "C1": 115,
+            "C2": 38,
+            "C3": 38,
+            "C5": 77,
+            "C4": 78,
+            "C6": 39,
+            "C7": 0,
+            "C8": 0
+          },
+          "purchased": {
+            "C1": 72,
+            "C2": 20,
+            "C3": 20,
+            "C4": 65,
+            "C5": 53,
+            "C6": 33,
+            "C7": 0,
+            "C8": 0
+          }
+        }
+      ]
+    },
+    {
+      "budget": 100000,
+      "metrics": [
+        {
+          "policy": "Existing sourcing",
+          "fulfilled": 41,
+          "demand": 149,
+          "fill_rate": 0.2751677852348993,
+          "weighted_fill_rate": 0.49382716049382713,
+          "score": 160,
+          "unfulfilled": 108,
+          "cost": 22360,
+          "sales_exposure": 1816000,
+          "status": "FEASIBLE",
+          "seconds": 0.0003068999794777483,
+          "feasible": true
+        },
+        {
+          "policy": "Greedy recovery",
+          "fulfilled": 123,
+          "demand": 149,
+          "fill_rate": 0.825503355704698,
+          "weighted_fill_rate": 0.9197530864197531,
+          "score": 298,
+          "unfulfilled": 26,
+          "cost": 98720,
+          "sales_exposure": 572000,
+          "status": "FEASIBLE",
+          "seconds": 0.0007952000014483929,
+          "feasible": true
+        },
+        {
+          "policy": "Optimized recovery",
+          "fulfilled": 123,
+          "demand": 149,
+          "fill_rate": 0.825503355704698,
+          "weighted_fill_rate": 0.9197530864197531,
+          "score": 298,
+          "unfulfilled": 26,
+          "cost": 98720,
+          "sales_exposure": 572000,
+          "status": "OPTIMAL",
+          "seconds": 0.011310400004731491,
+          "feasible": true
+        }
+      ],
+      "checks": [
+        {
+          "valid": true,
+          "errors": [],
+          "cost": 22360,
+          "assembly_used": 406,
+          "consumed": {
+            "C1": 43,
+            "C2": 2,
+            "C3": 2,
+            "C5": 41,
+            "C4": 78,
+            "C6": 39,
+            "C7": 0,
+            "C8": 0
+          },
+          "purchased": {
+            "C1": 0,
+            "C2": 0,
+            "C3": 0,
+            "C4": 65,
+            "C5": 17,
+            "C6": 33,
+            "C7": 0,
+            "C8": 0
+          }
+        },
+        {
+          "valid": true,
+          "errors": [],
+          "cost": 98720,
+          "assembly_used": 1166,
+          "consumed": {
+            "C1": 207,
+            "C2": 84,
+            "C3": 84,
+            "C5": 123,
+            "C4": 78,
+            "C6": 39,
+            "C7": 26,
+            "C8": 26
+          },
+          "purchased": {
+            "C1": 164,
+            "C2": 66,
+            "C3": 66,
+            "C4": 65,
+            "C5": 99,
+            "C6": 33,
+            "C7": 18,
+            "C8": 18
+          }
+        },
+        {
+          "valid": true,
+          "errors": [],
+          "cost": 98720,
+          "assembly_used": 1166,
+          "consumed": {
+            "C1": 207,
+            "C2": 84,
+            "C3": 84,
+            "C5": 123,
+            "C4": 78,
+            "C6": 39,
+            "C7": 26,
+            "C8": 26
+          },
+          "purchased": {
+            "C1": 164,
+            "C2": 66,
+            "C3": 66,
+            "C4": 65,
+            "C5": 99,
+            "C6": 33,
+            "C7": 18,
+            "C8": 18
+          }
+        }
+      ]
+    },
+    {
+      "budget": 238960,
+      "metrics": [
+        {
+          "policy": "Existing sourcing",
+          "fulfilled": 41,
+          "demand": 149,
+          "fill_rate": 0.2751677852348993,
+          "weighted_fill_rate": 0.49382716049382713,
+          "score": 160,
+          "unfulfilled": 108,
+          "cost": 22360,
+          "sales_exposure": 1816000,
+          "status": "FEASIBLE",
+          "seconds": 0.000524800008861348,
+          "feasible": true
+        },
+        {
+          "policy": "Greedy recovery",
+          "fulfilled": 138,
+          "demand": 149,
+          "fill_rate": 0.9261744966442953,
+          "weighted_fill_rate": 0.9660493827160493,
+          "score": 313,
+          "unfulfilled": 11,
+          "cost": 119420,
+          "sales_exposure": 242000,
+          "status": "FEASIBLE",
+          "seconds": 0.0009362999990116805,
+          "feasible": true
+        },
+        {
+          "policy": "Optimized recovery",
+          "fulfilled": 138,
+          "demand": 149,
+          "fill_rate": 0.9261744966442953,
+          "weighted_fill_rate": 0.9660493827160493,
+          "score": 313,
+          "unfulfilled": 11,
+          "cost": 119420,
+          "sales_exposure": 242000,
+          "status": "OPTIMAL",
+          "seconds": 0.00579450000077486,
+          "feasible": true
+        }
+      ],
+      "checks": [
+        {
+          "valid": true,
+          "errors": [],
+          "cost": 22360,
+          "assembly_used": 406,
+          "consumed": {
+            "C1": 43,
+            "C2": 2,
+            "C3": 2,
+            "C5": 41,
+            "C4": 78,
+            "C6": 39,
+            "C7": 0,
+            "C8": 0
+          },
+          "purchased": {
+            "C1": 0,
+            "C2": 0,
+            "C3": 0,
+            "C4": 65,
+            "C5": 17,
+            "C6": 33,
+            "C7": 0,
+            "C8": 0
+          }
+        },
+        {
+          "valid": true,
+          "errors": [],
+          "cost": 119420,
+          "assembly_used": 1346,
+          "consumed": {
+            "C1": 237,
+            "C2": 99,
+            "C3": 99,
+            "C5": 138,
+            "C4": 78,
+            "C6": 39,
+            "C7": 41,
+            "C8": 41
+          },
+          "purchased": {
+            "C1": 194,
+            "C2": 81,
+            "C3": 81,
+            "C4": 65,
+            "C5": 114,
+            "C6": 33,
+            "C7": 33,
+            "C8": 33
+          }
+        },
+        {
+          "valid": true,
+          "errors": [],
+          "cost": 119420,
+          "assembly_used": 1346,
+          "consumed": {
+            "C1": 237,
+            "C2": 99,
+            "C3": 99,
+            "C5": 138,
+            "C4": 78,
+            "C6": 39,
+            "C7": 41,
+            "C8": 41
+          },
+          "purchased": {
+            "C1": 194,
+            "C2": 81,
+            "C3": 81,
+            "C4": 65,
+            "C5": 114,
+            "C6": 33,
+            "C7": 33,
+            "C8": 33
+          }
+        }
+      ]
+    }
+  ],
+  "daily_reference": {
+    "case": {
+      "name": "Hand-calculated controller case",
+      "synthetic": true,
+      "currency": "JPY",
+      "money_unit": "whole yen",
+      "horizon": 7,
+      "assembly_reserve": 1,
+      "default_budget": 1000,
+      "assembly_capacity": 100,
+      "suppliers": [
+        {
+          "id": "S1",
+          "name": "Main",
+          "location": "Sample"
+        },
+        {
+          "id": "S2",
+          "name": "Alternative",
+          "location": "Sample"
+        }
+      ],
+      "components": [
+        {
+          "id": "chip",
+          "name": "Chip"
+        },
+        {
+          "id": "housing",
+          "name": "Housing"
+        }
+      ],
+      "products": [
+        {
+          "id": "controller",
+          "name": "Controller",
+          "assembly_minutes": 1
+        }
+      ],
+      "bom": [
+        {
+          "product": "controller",
+          "component": "chip",
+          "units": 2
+        },
+        {
+          "product": "controller",
+          "component": "housing",
+          "units": 1
+        }
+      ],
+      "stock": {
+        "chip": 20,
+        "housing": 20
+      },
+      "offers": [
+        {
+          "id": "main",
+          "supplier": "S1",
+          "component": "chip",
+          "mode": "normal",
+          "capacity": 0,
+          "lead_days": 2,
+          "cost": 10,
+          "approved": true,
+          "eligible": true
+        },
+        {
+          "id": "alt",
+          "supplier": "S2",
+          "component": "chip",
+          "mode": "normal",
+          "capacity": 10,
+          "lead_days": 3,
+          "cost": 20,
+          "approved": true,
+          "eligible": true
+        }
+      ],
+      "orders": [
+        {
+          "id": "O1",
+          "product": "controller",
+          "quantity": 20,
+          "priority": 1,
+          "price": 100,
+          "due_day": 7
+        }
+      ],
+      "planned": {
+        "main": 20
+      },
+      "budget": 1000,
+      "assembly_limit": 100,
+      "scenario": {
+        "supplier": "S1",
+        "kind": "outage",
+        "capacity_percent": 50,
+        "delay_days": 8,
+        "budget": null,
+        "assembly_capacity": null
+      }
+    },
+    "plan": {
+      "policy": "Daily optimized recovery",
+      "purchases": {
+        "main": 0,
+        "alt": 10
+      },
+      "fulfilled": {
+        "O1": 15
+      },
+      "status": "OPTIMAL",
+      "seconds": 0.001965200004633516,
+      "schedule": [
+        {
+          "order": "O1",
+          "product": "controller",
+          "production_day": 2,
+          "delivery_day": 3,
+          "quantity": 3
+        },
+        {
+          "order": "O1",
+          "product": "controller",
+          "production_day": 3,
+          "delivery_day": 4,
+          "quantity": 3
+        },
+        {
+          "order": "O1",
+          "product": "controller",
+          "production_day": 4,
+          "delivery_day": 5,
+          "quantity": 3
+        },
+        {
+          "order": "O1",
+          "product": "controller",
+          "production_day": 5,
+          "delivery_day": 6,
+          "quantity": 3
+        },
+        {
+          "order": "O1",
+          "product": "controller",
+          "production_day": 6,
+          "delivery_day": 7,
+          "quantity": 3
+        }
+      ],
+      "daily_minutes": 3
+    },
+    "check": {
+      "valid": true,
+      "errors": [],
+      "inventory_history": [
+        {
+          "day": 1,
+          "inventory": {
+            "chip": 20,
+            "housing": 20
+          },
+          "assembly_minutes": 0
+        },
+        {
+          "day": 2,
+          "inventory": {
+            "chip": 14,
+            "housing": 17
+          },
+          "assembly_minutes": 3
+        },
+        {
+          "day": 3,
+          "inventory": {
+            "chip": 18,
+            "housing": 14
+          },
+          "assembly_minutes": 3
+        },
+        {
+          "day": 4,
+          "inventory": {
+            "chip": 12,
+            "housing": 11
+          },
+          "assembly_minutes": 3
+        },
+        {
+          "day": 5,
+          "inventory": {
+            "chip": 6,
+            "housing": 8
+          },
+          "assembly_minutes": 3
+        },
+        {
+          "day": 6,
+          "inventory": {
+            "chip": 0,
+            "housing": 5
+          },
+          "assembly_minutes": 3
+        },
+        {
+          "day": 7,
+          "inventory": {
+            "chip": 0,
+            "housing": 5
+          },
+          "assembly_minutes": 0
+        }
+      ],
+      "cost": 200
+    },
+    "model_version": "0.1.0",
+    "input_hash": "373472ac98f2c96bdbf0f2f0deb76e88eb995fa5ebe67dd68098855c391e71df",
+    "solver_limit_seconds": 5
+  },
+  "external_user_validation": "Not performed; pilot protocol is provided.",
+  "synthetic": true
+}

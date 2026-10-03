@@ -1,0 +1,300 @@
+{
+  "tested_at_utc": "2026-10-03T15:28:28.215Z",
+  "passed": 25,
+  "total": 25,
+  "description": "Browser engine vs Python CP-SAT: priority objective, purchase cost, and feasibility",
+  "checks": [
+    {
+      "scenario": {
+        "supplier": "S01",
+        "kind": "none",
+        "capacity_percent": 50,
+        "delay_days": 8,
+        "budget": 0,
+        "assembly_capacity": null
+      },
+      "passed": true,
+      "seconds": 1.3094756
+    },
+    {
+      "scenario": {
+        "supplier": "S01",
+        "kind": "none",
+        "capacity_percent": 50,
+        "delay_days": 8,
+        "budget": 59740,
+        "assembly_capacity": null
+      },
+      "passed": true,
+      "seconds": 0.0511853000000001
+    },
+    {
+      "scenario": {
+        "supplier": "S01",
+        "kind": "none",
+        "capacity_percent": 50,
+        "delay_days": 8,
+        "budget": 238960,
+        "assembly_capacity": null
+      },
+      "passed": true,
+      "seconds": 0.0022690000000000054
+    },
+    {
+      "scenario": {
+        "supplier": "S01",
+        "kind": "outage",
+        "capacity_percent": 50,
+        "delay_days": 8,
+        "budget": 0,
+        "assembly_capacity": null
+      },
+      "passed": true,
+      "seconds": 1.3340420999999998
+    },
+    {
+      "scenario": {
+        "supplier": "S01",
+        "kind": "outage",
+        "capacity_percent": 50,
+        "delay_days": 8,
+        "budget": 59740,
+        "assembly_capacity": null
+      },
+      "passed": true,
+      "seconds": 0.09803369999999996
+    },
+    {
+      "scenario": {
+        "supplier": "S01",
+        "kind": "outage",
+        "capacity_percent": 50,
+        "delay_days": 8,
+        "budget": 238960,
+        "assembly_capacity": null
+      },
+      "passed": true,
+      "seconds": 0.002432799999999588
+    },
+    {
+      "scenario": {
+        "supplier": "S01",
+        "kind": "capacity",
+        "capacity_percent": 50,
+        "delay_days": 8,
+        "budget": 0,
+        "assembly_capacity": null
+      },
+      "passed": true,
+      "seconds": 1.2975543000000003
+    },
+    {
+      "scenario": {
+        "supplier": "S01",
+        "kind": "capacity",
+        "capacity_percent": 50,
+        "delay_days": 8,
+        "budget": 59740,
+        "assembly_capacity": null
+      },
+      "passed": true,
+      "seconds": 0.04553570000000036
+    },
+    {
+      "scenario": {
+        "supplier": "S01",
+        "kind": "capacity",
+        "capacity_percent": 50,
+        "delay_days": 8,
+        "budget": 238960,
+        "assembly_capacity": null
+      },
+      "passed": true,
+      "seconds": 0.0016580999999996494
+    },
+    {
+      "scenario": {
+        "supplier": "S01",
+        "kind": "delay",
+        "capacity_percent": 50,
+        "delay_days": 8,
+        "budget": 0,
+        "assembly_capacity": null
+      },
+      "passed": true,
+      "seconds": 1.2031929
+    },
+    {
+      "scenario": {
+        "supplier": "S01",
+        "kind": "delay",
+        "capacity_percent": 50,
+        "delay_days": 8,
+        "budget": 59740,
+        "assembly_capacity": null
+      },
+      "passed": true,
+      "seconds": 0.08873539999999958
+    },
+    {
+      "scenario": {
+        "supplier": "S01",
+        "kind": "delay",
+        "capacity_percent": 50,
+        "delay_days": 8,
+        "budget": 238960,
+        "assembly_capacity": null
+      },
+      "passed": true,
+      "seconds": 0.001976300000000265
+    },
+    {
+      "scenario": {
+        "supplier": "S08",
+        "kind": "none",
+        "capacity_percent": 50,
+        "delay_days": 8,
+        "budget": 0,
+        "assembly_capacity": null
+      },
+      "passed": true,
+      "seconds": 1.2656386000000002
+    },
+    {
+      "scenario": {
+        "supplier": "S08",
+        "kind": "none",
+        "capacity_percent": 50,
+        "delay_days": 8,
+        "budget": 59740,
+        "assembly_capacity": null
+      },
+      "passed": true,
+      "seconds": 0.041625200000000404
+    },
+    {
+      "scenario": {
+        "supplier": "S08",
+        "kind": "none",
+        "capacity_percent": 50,
+        "delay_days": 8,
+        "budget": 238960,
+        "assembly_capacity": null
+      },
+      "passed": true,
+      "seconds": 0.001545799999999872
+    },
+    {
+      "scenario": {
+        "supplier": "S08",
+        "kind": "outage",
+        "capacity_percent": 50,
+        "delay_days": 8,
+        "budget": 0,
+        "assembly_capacity": null
+      },
+      "passed": true,
+      "seconds": 1.3119973
+    },
+    {
+      "scenario": {
+        "supplier": "S08",
+        "kind": "outage",
+        "capacity_percent": 50,
+        "delay_days": 8,
+        "budget": 59740,
+        "assembly_capacity": null
+      },
+      "passed": true,
+      "seconds": 0.04116870000000017
+    },
+    {
+      "scenario": {
+        "supplier": "S08",
+        "kind": "outage",
+        "capacity_percent": 50,
+        "delay_days": 8,
+        "budget": 238960,
+        "assembly_capacity": null
+      },
+      "passed": true,
+      "seconds": 0.031092900000000555
+    },
+    {
+      "scenario": {
+        "supplier": "S08",
+        "kind": "capacity",
+        "capacity_percent": 50,
+        "delay_days": 8,
+        "budget": 0,
+        "assembly_capacity": null
+      },
+      "passed": true,
+      "seconds": 1.2815875000000005
+    },
+    {
+      "scenario": {
+        "supplier": "S08",
+        "kind": "capacity",
+        "capacity_percent": 50,
+        "delay_days": 8,
+        "budget": 59740,
+        "assembly_capacity": null
+      },
+      "passed": true,
+      "seconds": 0.042045099999999364
+    },
+    {
+      "scenario": {
+        "supplier": "S08",
+        "kind": "capacity",
+        "capacity_percent": 50,
+        "delay_days": 8,
+        "budget": 238960,
+        "assembly_capacity": null
+      },
+      "passed": true,
+      "seconds": 0.0027163999999993394
+    },
+    {
+      "scenario": {
+        "supplier": "S08",
+        "kind": "delay",
+        "capacity_percent": 50,
+        "delay_days": 8,
+        "budget": 0,
+        "assembly_capacity": null
+      },
+      "passed": true,
+      "seconds": 1.211791800000001
+    },
+    {
+      "scenario": {
+        "supplier": "S08",
+        "kind": "delay",
+        "capacity_percent": 50,
+        "delay_days": 8,
+        "budget": 59740,
+        "assembly_capacity": null
+      },
+      "passed": true,
+      "seconds": 0.03985260000000017
+    },
+    {
+      "scenario": {
+        "supplier": "S08",
+        "kind": "delay",
+        "capacity_percent": 50,
+        "delay_days": 8,
+        "budget": 238960,
+        "assembly_capacity": null
+      },
+      "passed": true,
+      "seconds": 0.031797200000000886
+    },
+    {
+      "name": "Hand-calculated reference",
+      "passed": true
+    }
+  ]
+}

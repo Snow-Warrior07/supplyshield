@@ -1,0 +1,90 @@
+{
+  "name": "Hand-calculated controller case",
+  "synthetic": true,
+  "currency": "JPY",
+  "money_unit": "whole yen",
+  "horizon": 7,
+  "assembly_reserve": 1,
+  "default_budget": 1000,
+  "assembly_capacity": 100,
+  "suppliers": [
+    {
+      "id": "S1",
+      "name": "Main",
+      "location": "Sample"
+    },
+    {
+      "id": "S2",
+      "name": "Alternative",
+      "location": "Sample"
+    }
+  ],
+  "components": [
+    {
+      "id": "chip",
+      "name": "Chip"
+    },
+    {
+      "id": "housing",
+      "name": "Housing"
+    }
+  ],
+  "products": [
+    {
+      "id": "controller",
+      "name": "Controller",
+      "assembly_minutes": 1
+    }
+  ],
+  "bom": [
+    {
+      "product": "controller",
+      "component": "chip",
+      "units": 2
+    },
+    {
+      "product": "controller",
+      "component": "housing",
+      "units": 1
+    }
+  ],
+  "stock": {
+    "chip": 20,
+    "housing": 20
+  },
+  "offers": [
+    {
+      "id": "main",
+      "supplier": "S1",
+      "component": "chip",
+      "mode": "normal",
+      "capacity": 20,
+      "lead_days": 2,
+      "cost": 10,
+      "approved": true
+    },
+    {
+      "id": "alt",
+      "supplier": "S2",
+      "component": "chip",
+      "mode": "normal",
+      "capacity": 10,
+      "lead_days": 3,
+      "cost": 20,
+      "approved": true
+    }
+  ],
+  "orders": [
+    {
+      "id": "O1",
+      "product": "controller",
+      "quantity": 20,
+      "priority": 1,
+      "price": 100,
+      "due_day": 7
+    }
+  ],
+  "planned": {
+    "main": 20
+  }
+}

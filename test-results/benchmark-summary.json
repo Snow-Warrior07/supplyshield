@@ -1,0 +1,10 @@
+{
+  "tested_at_utc": "2026-10-03T15:28:16.380154+00:00",
+  "scenarios": 24,
+  "policy_runs": 72,
+  "valid_plans": 72,
+  "optimized_optimal": 24,
+  "max_solve_seconds": 0.01330039999447763,
+  "synthetic": true,
+  "note": "Actual solver timings; modeled fulfillment is not realized business savings."
+}

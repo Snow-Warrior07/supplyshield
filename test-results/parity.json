@@ -1,0 +1,1298 @@
+[
+  {
+    "scenario": {
+      "supplier": "S01",
+      "kind": "none",
+      "capacity_percent": 50,
+      "delay_days": 8,
+      "budget": 0,
+      "assembly_capacity": null
+    },
+    "expected": [
+      {
+        "policy": "Existing sourcing",
+        "fulfilled": 24,
+        "demand": 149,
+        "fill_rate": 0.1610738255033557,
+        "weighted_fill_rate": 0.18518518518518517,
+        "score": 60,
+        "unfulfilled": 125,
+        "cost": 0,
+        "sales_exposure": 2119000,
+        "status": "FEASIBLE",
+        "seconds": 0.0005048000020906329,
+        "feasible": true
+      },
+      {
+        "policy": "Greedy recovery",
+        "fulfilled": 24,
+        "demand": 149,
+        "fill_rate": 0.1610738255033557,
+        "weighted_fill_rate": 0.18518518518518517,
+        "score": 60,
+        "unfulfilled": 125,
+        "cost": 0,
+        "sales_exposure": 2119000,
+        "status": "FEASIBLE",
+        "seconds": 0.00033939999411813915,
+        "feasible": true
+      },
+      {
+        "policy": "Optimized recovery",
+        "fulfilled": 24,
+        "demand": 149,
+        "fill_rate": 0.1610738255033557,
+        "weighted_fill_rate": 0.18518518518518517,
+        "score": 60,
+        "unfulfilled": 125,
+        "cost": 0,
+        "sales_exposure": 2119000,
+        "status": "OPTIMAL",
+        "seconds": 0.012726900022244081,
+        "feasible": true
+      }
+    ]
+  },
+  {
+    "scenario": {
+      "supplier": "S01",
+      "kind": "none",
+      "capacity_percent": 50,
+      "delay_days": 8,
+      "budget": 59740,
+      "assembly_capacity": null
+    },
+    "expected": [
+      {
+        "policy": "Existing sourcing",
+        "fulfilled": 98,
+        "demand": 149,
+        "fill_rate": 0.6577181208053692,
+        "weighted_fill_rate": 0.8425925925925926,
+        "score": 273,
+        "unfulfilled": 51,
+        "cost": 59740,
+        "sales_exposure": 1122000,
+        "status": "FEASIBLE",
+        "seconds": 0.0012095999845769256,
+        "feasible": true
+      },
+      {
+        "policy": "Greedy recovery",
+        "fulfilled": 98,
+        "demand": 149,
+        "fill_rate": 0.6577181208053692,
+        "weighted_fill_rate": 0.8425925925925926,
+        "score": 273,
+        "unfulfilled": 51,
+        "cost": 59740,
+        "sales_exposure": 1122000,
+        "status": "FEASIBLE",
+        "seconds": 0.0010211000044364482,
+        "feasible": true
+      },
+      {
+        "policy": "Optimized recovery",
+        "fulfilled": 98,
+        "demand": 149,
+        "fill_rate": 0.6577181208053692,
+        "weighted_fill_rate": 0.8425925925925926,
+        "score": 273,
+        "unfulfilled": 51,
+        "cost": 59740,
+        "sales_exposure": 1122000,
+        "status": "OPTIMAL",
+        "seconds": 0.01330039999447763,
+        "feasible": true
+      }
+    ]
+  },
+  {
+    "scenario": {
+      "supplier": "S01",
+      "kind": "none",
+      "capacity_percent": 50,
+      "delay_days": 8,
+      "budget": 238960,
+      "assembly_capacity": null
+    },
+    "expected": [
+      {
+        "policy": "Existing sourcing",
+        "fulfilled": 149,
+        "demand": 149,
+        "fill_rate": 1.0,
+        "weighted_fill_rate": 1.0,
+        "score": 324,
+        "unfulfilled": 0,
+        "cost": 119480,
+        "sales_exposure": 0,
+        "status": "FEASIBLE",
+        "seconds": 0.0011757999891415238,
+        "feasible": true
+      },
+      {
+        "policy": "Greedy recovery",
+        "fulfilled": 149,
+        "demand": 149,
+        "fill_rate": 1.0,
+        "weighted_fill_rate": 1.0,
+        "score": 324,
+        "unfulfilled": 0,
+        "cost": 119480,
+        "sales_exposure": 0,
+        "status": "FEASIBLE",
+        "seconds": 0.0010015000007115304,
+        "feasible": true
+      },
+      {
+        "policy": "Optimized recovery",
+        "fulfilled": 149,
+        "demand": 149,
+        "fill_rate": 1.0,
+        "weighted_fill_rate": 1.0,
+        "score": 324,
+        "unfulfilled": 0,
+        "cost": 119480,
+        "sales_exposure": 0,
+        "status": "OPTIMAL",
+        "seconds": 0.0054512000060640275,
+        "feasible": true
+      }
+    ]
+  },
+  {
+    "scenario": {
+      "supplier": "S01",
+      "kind": "outage",
+      "capacity_percent": 50,
+      "delay_days": 8,
+      "budget": 0,
+      "assembly_capacity": null
+    },
+    "expected": [
+      {
+        "policy": "Existing sourcing",
+        "fulfilled": 24,
+        "demand": 149,
+        "fill_rate": 0.1610738255033557,
+        "weighted_fill_rate": 0.18518518518518517,
+        "score": 60,
+        "unfulfilled": 125,
+        "cost": 0,
+        "sales_exposure": 2119000,
+        "status": "FEASIBLE",
+        "seconds": 0.00023419997887685895,
+        "feasible": true
+      },
+      {
+        "policy": "Greedy recovery",
+        "fulfilled": 24,
+        "demand": 149,
+        "fill_rate": 0.1610738255033557,
+        "weighted_fill_rate": 0.18518518518518517,
+        "score": 60,
+        "unfulfilled": 125,
+        "cost": 0,
+        "sales_exposure": 2119000,
+        "status": "FEASIBLE",
+        "seconds": 0.00019749999046325684,
+        "feasible": true
+      },
+      {
+        "policy": "Optimized recovery",
+        "fulfilled": 24,
+        "demand": 149,
+        "fill_rate": 0.1610738255033557,
+        "weighted_fill_rate": 0.18518518518518517,
+        "score": 60,
+        "unfulfilled": 125,
+        "cost": 0,
+        "sales_exposure": 2119000,
+        "status": "OPTIMAL",
+        "seconds": 0.004910299991024658,
+        "feasible": true
+      }
+    ]
+  },
+  {
+    "scenario": {
+      "supplier": "S01",
+      "kind": "outage",
+      "capacity_percent": 50,
+      "delay_days": 8,
+      "budget": 59740,
+      "assembly_capacity": null
+    },
+    "expected": [
+      {
+        "policy": "Existing sourcing",
+        "fulfilled": 41,
+        "demand": 149,
+        "fill_rate": 0.2751677852348993,
+        "weighted_fill_rate": 0.49382716049382713,
+        "score": 160,
+        "unfulfilled": 108,
+        "cost": 22360,
+        "sales_exposure": 1816000,
+        "status": "FEASIBLE",
+        "seconds": 0.0003659999929368496,
+        "feasible": true
+      },
+      {
+        "policy": "Greedy recovery",
+        "fulfilled": 88,
+        "demand": 149,
+        "fill_rate": 0.5906040268456376,
+        "weighted_fill_rate": 0.7839506172839507,
+        "score": 254,
+        "unfulfilled": 61,
+        "cost": 58920,
+        "sales_exposure": 1252000,
+        "status": "FEASIBLE",
+        "seconds": 0.0006784999859519303,
+        "feasible": true
+      },
+      {
+        "policy": "Optimized recovery",
+        "fulfilled": 88,
+        "demand": 149,
+        "fill_rate": 0.5906040268456376,
+        "weighted_fill_rate": 0.7839506172839507,
+        "score": 254,
+        "unfulfilled": 61,
+        "cost": 58920,
+        "sales_exposure": 1252000,
+        "status": "OPTIMAL",
+        "seconds": 0.01126619998831302,
+        "feasible": true
+      }
+    ]
+  },
+  {
+    "scenario": {
+      "supplier": "S01",
+      "kind": "outage",
+      "capacity_percent": 50,
+      "delay_days": 8,
+      "budget": 238960,
+      "assembly_capacity": null
+    },
+    "expected": [
+      {
+        "policy": "Existing sourcing",
+        "fulfilled": 41,
+        "demand": 149,
+        "fill_rate": 0.2751677852348993,
+        "weighted_fill_rate": 0.49382716049382713,
+        "score": 160,
+        "unfulfilled": 108,
+        "cost": 22360,
+        "sales_exposure": 1816000,
+        "status": "FEASIBLE",
+        "seconds": 0.00036479998379945755,
+        "feasible": true
+      },
+      {
+        "policy": "Greedy recovery",
+        "fulfilled": 138,
+        "demand": 149,
+        "fill_rate": 0.9261744966442953,
+        "weighted_fill_rate": 0.9660493827160493,
+        "score": 313,
+        "unfulfilled": 11,
+        "cost": 119420,
+        "sales_exposure": 242000,
+        "status": "FEASIBLE",
+        "seconds": 0.0010972000018227845,
+        "feasible": true
+      },
+      {
+        "policy": "Optimized recovery",
+        "fulfilled": 138,
+        "demand": 149,
+        "fill_rate": 0.9261744966442953,
+        "weighted_fill_rate": 0.9660493827160493,
+        "score": 313,
+        "unfulfilled": 11,
+        "cost": 119420,
+        "sales_exposure": 242000,
+        "status": "OPTIMAL",
+        "seconds": 0.006322600005660206,
+        "feasible": true
+      }
+    ]
+  },
+  {
+    "scenario": {
+      "supplier": "S01",
+      "kind": "capacity",
+      "capacity_percent": 50,
+      "delay_days": 8,
+      "budget": 0,
+      "assembly_capacity": null
+    },
+    "expected": [
+      {
+        "policy": "Existing sourcing",
+        "fulfilled": 24,
+        "demand": 149,
+        "fill_rate": 0.1610738255033557,
+        "weighted_fill_rate": 0.18518518518518517,
+        "score": 60,
+        "unfulfilled": 125,
+        "cost": 0,
+        "sales_exposure": 2119000,
+        "status": "FEASIBLE",
+        "seconds": 0.00023090001195669174,
+        "feasible": true
+      },
+      {
+        "policy": "Greedy recovery",
+        "fulfilled": 24,
+        "demand": 149,
+        "fill_rate": 0.1610738255033557,
+        "weighted_fill_rate": 0.18518518518518517,
+        "score": 60,
+        "unfulfilled": 125,
+        "cost": 0,
+        "sales_exposure": 2119000,
+        "status": "FEASIBLE",
+        "seconds": 0.00020050001330673695,
+        "feasible": true
+      },
+      {
+        "policy": "Optimized recovery",
+        "fulfilled": 24,
+        "demand": 149,
+        "fill_rate": 0.1610738255033557,
+        "weighted_fill_rate": 0.18518518518518517,
+        "score": 60,
+        "unfulfilled": 125,
+        "cost": 0,
+        "sales_exposure": 2119000,
+        "status": "OPTIMAL",
+        "seconds": 0.004667900007916614,
+        "feasible": true
+      }
+    ]
+  },
+  {
+    "scenario": {
+      "supplier": "S01",
+      "kind": "capacity",
+      "capacity_percent": 50,
+      "delay_days": 8,
+      "budget": 59740,
+      "assembly_capacity": null
+    },
+    "expected": [
+      {
+        "policy": "Existing sourcing",
+        "fulfilled": 98,
+        "demand": 149,
+        "fill_rate": 0.6577181208053692,
+        "weighted_fill_rate": 0.8425925925925926,
+        "score": 273,
+        "unfulfilled": 51,
+        "cost": 59740,
+        "sales_exposure": 1122000,
+        "status": "FEASIBLE",
+        "seconds": 0.0006849000055808574,
+        "feasible": true
+      },
+      {
+        "policy": "Greedy recovery",
+        "fulfilled": 98,
+        "demand": 149,
+        "fill_rate": 0.6577181208053692,
+        "weighted_fill_rate": 0.8425925925925926,
+        "score": 273,
+        "unfulfilled": 51,
+        "cost": 59740,
+        "sales_exposure": 1122000,
+        "status": "FEASIBLE",
+        "seconds": 0.0005748000112362206,
+        "feasible": true
+      },
+      {
+        "policy": "Optimized recovery",
+        "fulfilled": 98,
+        "demand": 149,
+        "fill_rate": 0.6577181208053692,
+        "weighted_fill_rate": 0.8425925925925926,
+        "score": 273,
+        "unfulfilled": 51,
+        "cost": 59740,
+        "sales_exposure": 1122000,
+        "status": "OPTIMAL",
+        "seconds": 0.010849599988432601,
+        "feasible": true
+      }
+    ]
+  },
+  {
+    "scenario": {
+      "supplier": "S01",
+      "kind": "capacity",
+      "capacity_percent": 50,
+      "delay_days": 8,
+      "budget": 238960,
+      "assembly_capacity": null
+    },
+    "expected": [
+      {
+        "policy": "Existing sourcing",
+        "fulfilled": 108,
+        "demand": 149,
+        "fill_rate": 0.7248322147651006,
+        "weighted_fill_rate": 0.8734567901234568,
+        "score": 283,
+        "unfulfilled": 41,
+        "cost": 68640,
+        "sales_exposure": 902000,
+        "status": "FEASIBLE",
+        "seconds": 0.0007607000006828457,
+        "feasible": true
+      },
+      {
+        "policy": "Greedy recovery",
+        "fulfilled": 149,
+        "demand": 149,
+        "fill_rate": 1.0,
+        "weighted_fill_rate": 1.0,
+        "score": 324,
+        "unfulfilled": 0,
+        "cost": 125220,
+        "sales_exposure": 0,
+        "status": "FEASIBLE",
+        "seconds": 0.0010553999745752662,
+        "feasible": true
+      },
+      {
+        "policy": "Optimized recovery",
+        "fulfilled": 149,
+        "demand": 149,
+        "fill_rate": 1.0,
+        "weighted_fill_rate": 1.0,
+        "score": 324,
+        "unfulfilled": 0,
+        "cost": 125220,
+        "sales_exposure": 0,
+        "status": "OPTIMAL",
+        "seconds": 0.005138499982422218,
+        "feasible": true
+      }
+    ]
+  },
+  {
+    "scenario": {
+      "supplier": "S01",
+      "kind": "delay",
+      "capacity_percent": 50,
+      "delay_days": 8,
+      "budget": 0,
+      "assembly_capacity": null
+    },
+    "expected": [
+      {
+        "policy": "Existing sourcing",
+        "fulfilled": 24,
+        "demand": 149,
+        "fill_rate": 0.1610738255033557,
+        "weighted_fill_rate": 0.18518518518518517,
+        "score": 60,
+        "unfulfilled": 125,
+        "cost": 0,
+        "sales_exposure": 2119000,
+        "status": "FEASIBLE",
+        "seconds": 0.00020530002075247467,
+        "feasible": true
+      },
+      {
+        "policy": "Greedy recovery",
+        "fulfilled": 24,
+        "demand": 149,
+        "fill_rate": 0.1610738255033557,
+        "weighted_fill_rate": 0.18518518518518517,
+        "score": 60,
+        "unfulfilled": 125,
+        "cost": 0,
+        "sales_exposure": 2119000,
+        "status": "FEASIBLE",
+        "seconds": 0.00017630000365898013,
+        "feasible": true
+      },
+      {
+        "policy": "Optimized recovery",
+        "fulfilled": 24,
+        "demand": 149,
+        "fill_rate": 0.1610738255033557,
+        "weighted_fill_rate": 0.18518518518518517,
+        "score": 60,
+        "unfulfilled": 125,
+        "cost": 0,
+        "sales_exposure": 2119000,
+        "status": "OPTIMAL",
+        "seconds": 0.004633600008673966,
+        "feasible": true
+      }
+    ]
+  },
+  {
+    "scenario": {
+      "supplier": "S01",
+      "kind": "delay",
+      "capacity_percent": 50,
+      "delay_days": 8,
+      "budget": 59740,
+      "assembly_capacity": null
+    },
+    "expected": [
+      {
+        "policy": "Existing sourcing",
+        "fulfilled": 41,
+        "demand": 149,
+        "fill_rate": 0.2751677852348993,
+        "weighted_fill_rate": 0.49382716049382713,
+        "score": 160,
+        "unfulfilled": 108,
+        "cost": 22360,
+        "sales_exposure": 1816000,
+        "status": "FEASIBLE",
+        "seconds": 0.00031579998903907835,
+        "feasible": true
+      },
+      {
+        "policy": "Greedy recovery",
+        "fulfilled": 88,
+        "demand": 149,
+        "fill_rate": 0.5906040268456376,
+        "weighted_fill_rate": 0.7839506172839507,
+        "score": 254,
+        "unfulfilled": 61,
+        "cost": 58920,
+        "sales_exposure": 1252000,
+        "status": "FEASIBLE",
+        "seconds": 0.0005805999971926212,
+        "feasible": true
+      },
+      {
+        "policy": "Optimized recovery",
+        "fulfilled": 88,
+        "demand": 149,
+        "fill_rate": 0.5906040268456376,
+        "weighted_fill_rate": 0.7839506172839507,
+        "score": 254,
+        "unfulfilled": 61,
+        "cost": 58920,
+        "sales_exposure": 1252000,
+        "status": "OPTIMAL",
+        "seconds": 0.010296200023731217,
+        "feasible": true
+      }
+    ]
+  },
+  {
+    "scenario": {
+      "supplier": "S01",
+      "kind": "delay",
+      "capacity_percent": 50,
+      "delay_days": 8,
+      "budget": 238960,
+      "assembly_capacity": null
+    },
+    "expected": [
+      {
+        "policy": "Existing sourcing",
+        "fulfilled": 41,
+        "demand": 149,
+        "fill_rate": 0.2751677852348993,
+        "weighted_fill_rate": 0.49382716049382713,
+        "score": 160,
+        "unfulfilled": 108,
+        "cost": 22360,
+        "sales_exposure": 1816000,
+        "status": "FEASIBLE",
+        "seconds": 0.00031889998354017735,
+        "feasible": true
+      },
+      {
+        "policy": "Greedy recovery",
+        "fulfilled": 138,
+        "demand": 149,
+        "fill_rate": 0.9261744966442953,
+        "weighted_fill_rate": 0.9660493827160493,
+        "score": 313,
+        "unfulfilled": 11,
+        "cost": 119420,
+        "sales_exposure": 242000,
+        "status": "FEASIBLE",
+        "seconds": 0.0009313999908044934,
+        "feasible": true
+      },
+      {
+        "policy": "Optimized recovery",
+        "fulfilled": 138,
+        "demand": 149,
+        "fill_rate": 0.9261744966442953,
+        "weighted_fill_rate": 0.9660493827160493,
+        "score": 313,
+        "unfulfilled": 11,
+        "cost": 119420,
+        "sales_exposure": 242000,
+        "status": "OPTIMAL",
+        "seconds": 0.006286700023338199,
+        "feasible": true
+      }
+    ]
+  },
+  {
+    "scenario": {
+      "supplier": "S08",
+      "kind": "none",
+      "capacity_percent": 50,
+      "delay_days": 8,
+      "budget": 0,
+      "assembly_capacity": null
+    },
+    "expected": [
+      {
+        "policy": "Existing sourcing",
+        "fulfilled": 24,
+        "demand": 149,
+        "fill_rate": 0.1610738255033557,
+        "weighted_fill_rate": 0.18518518518518517,
+        "score": 60,
+        "unfulfilled": 125,
+        "cost": 0,
+        "sales_exposure": 2119000,
+        "status": "FEASIBLE",
+        "seconds": 0.0002361999941058457,
+        "feasible": true
+      },
+      {
+        "policy": "Greedy recovery",
+        "fulfilled": 24,
+        "demand": 149,
+        "fill_rate": 0.1610738255033557,
+        "weighted_fill_rate": 0.18518518518518517,
+        "score": 60,
+        "unfulfilled": 125,
+        "cost": 0,
+        "sales_exposure": 2119000,
+        "status": "FEASIBLE",
+        "seconds": 0.0001965999836102128,
+        "feasible": true
+      },
+      {
+        "policy": "Optimized recovery",
+        "fulfilled": 24,
+        "demand": 149,
+        "fill_rate": 0.1610738255033557,
+        "weighted_fill_rate": 0.18518518518518517,
+        "score": 60,
+        "unfulfilled": 125,
+        "cost": 0,
+        "sales_exposure": 2119000,
+        "status": "OPTIMAL",
+        "seconds": 0.0046873000101186335,
+        "feasible": true
+      }
+    ]
+  },
+  {
+    "scenario": {
+      "supplier": "S08",
+      "kind": "none",
+      "capacity_percent": 50,
+      "delay_days": 8,
+      "budget": 59740,
+      "assembly_capacity": null
+    },
+    "expected": [
+      {
+        "policy": "Existing sourcing",
+        "fulfilled": 98,
+        "demand": 149,
+        "fill_rate": 0.6577181208053692,
+        "weighted_fill_rate": 0.8425925925925926,
+        "score": 273,
+        "unfulfilled": 51,
+        "cost": 59740,
+        "sales_exposure": 1122000,
+        "status": "FEASIBLE",
+        "seconds": 0.0006945000204723328,
+        "feasible": true
+      },
+      {
+        "policy": "Greedy recovery",
+        "fulfilled": 98,
+        "demand": 149,
+        "fill_rate": 0.6577181208053692,
+        "weighted_fill_rate": 0.8425925925925926,
+        "score": 273,
+        "unfulfilled": 51,
+        "cost": 59740,
+        "sales_exposure": 1122000,
+        "status": "FEASIBLE",
+        "seconds": 0.0005752999859396368,
+        "feasible": true
+      },
+      {
+        "policy": "Optimized recovery",
+        "fulfilled": 98,
+        "demand": 149,
+        "fill_rate": 0.6577181208053692,
+        "weighted_fill_rate": 0.8425925925925926,
+        "score": 273,
+        "unfulfilled": 51,
+        "cost": 59740,
+        "sales_exposure": 1122000,
+        "status": "OPTIMAL",
+        "seconds": 0.008491599990520626,
+        "feasible": true
+      }
+    ]
+  },
+  {
+    "scenario": {
+      "supplier": "S08",
+      "kind": "none",
+      "capacity_percent": 50,
+      "delay_days": 8,
+      "budget": 238960,
+      "assembly_capacity": null
+    },
+    "expected": [
+      {
+        "policy": "Existing sourcing",
+        "fulfilled": 149,
+        "demand": 149,
+        "fill_rate": 1.0,
+        "weighted_fill_rate": 1.0,
+        "score": 324,
+        "unfulfilled": 0,
+        "cost": 119480,
+        "sales_exposure": 0,
+        "status": "FEASIBLE",
+        "seconds": 0.0011006999993696809,
+        "feasible": true
+      },
+      {
+        "policy": "Greedy recovery",
+        "fulfilled": 149,
+        "demand": 149,
+        "fill_rate": 1.0,
+        "weighted_fill_rate": 1.0,
+        "score": 324,
+        "unfulfilled": 0,
+        "cost": 119480,
+        "sales_exposure": 0,
+        "status": "FEASIBLE",
+        "seconds": 0.0009286999993491918,
+        "feasible": true
+      },
+      {
+        "policy": "Optimized recovery",
+        "fulfilled": 149,
+        "demand": 149,
+        "fill_rate": 1.0,
+        "weighted_fill_rate": 1.0,
+        "score": 324,
+        "unfulfilled": 0,
+        "cost": 119480,
+        "sales_exposure": 0,
+        "status": "OPTIMAL",
+        "seconds": 0.005174199992325157,
+        "feasible": true
+      }
+    ]
+  },
+  {
+    "scenario": {
+      "supplier": "S08",
+      "kind": "outage",
+      "capacity_percent": 50,
+      "delay_days": 8,
+      "budget": 0,
+      "assembly_capacity": null
+    },
+    "expected": [
+      {
+        "policy": "Existing sourcing",
+        "fulfilled": 24,
+        "demand": 149,
+        "fill_rate": 0.1610738255033557,
+        "weighted_fill_rate": 0.18518518518518517,
+        "score": 60,
+        "unfulfilled": 125,
+        "cost": 0,
+        "sales_exposure": 2119000,
+        "status": "FEASIBLE",
+        "seconds": 0.00021389999892562628,
+        "feasible": true
+      },
+      {
+        "policy": "Greedy recovery",
+        "fulfilled": 24,
+        "demand": 149,
+        "fill_rate": 0.1610738255033557,
+        "weighted_fill_rate": 0.18518518518518517,
+        "score": 60,
+        "unfulfilled": 125,
+        "cost": 0,
+        "sales_exposure": 2119000,
+        "status": "FEASIBLE",
+        "seconds": 0.00017669997760094702,
+        "feasible": true
+      },
+      {
+        "policy": "Optimized recovery",
+        "fulfilled": 24,
+        "demand": 149,
+        "fill_rate": 0.1610738255033557,
+        "weighted_fill_rate": 0.18518518518518517,
+        "score": 60,
+        "unfulfilled": 125,
+        "cost": 0,
+        "sales_exposure": 2119000,
+        "status": "OPTIMAL",
+        "seconds": 0.004766800004290417,
+        "feasible": true
+      }
+    ]
+  },
+  {
+    "scenario": {
+      "supplier": "S08",
+      "kind": "outage",
+      "capacity_percent": 50,
+      "delay_days": 8,
+      "budget": 59740,
+      "assembly_capacity": null
+    },
+    "expected": [
+      {
+        "policy": "Existing sourcing",
+        "fulfilled": 98,
+        "demand": 149,
+        "fill_rate": 0.6577181208053692,
+        "weighted_fill_rate": 0.8425925925925926,
+        "score": 273,
+        "unfulfilled": 51,
+        "cost": 59740,
+        "sales_exposure": 1122000,
+        "status": "FEASIBLE",
+        "seconds": 0.0006337999948300421,
+        "feasible": true
+      },
+      {
+        "policy": "Greedy recovery",
+        "fulfilled": 98,
+        "demand": 149,
+        "fill_rate": 0.6577181208053692,
+        "weighted_fill_rate": 0.8425925925925926,
+        "score": 273,
+        "unfulfilled": 51,
+        "cost": 59740,
+        "sales_exposure": 1122000,
+        "status": "FEASIBLE",
+        "seconds": 0.0005608000210486352,
+        "feasible": true
+      },
+      {
+        "policy": "Optimized recovery",
+        "fulfilled": 98,
+        "demand": 149,
+        "fill_rate": 0.6577181208053692,
+        "weighted_fill_rate": 0.8425925925925926,
+        "score": 273,
+        "unfulfilled": 51,
+        "cost": 59740,
+        "sales_exposure": 1122000,
+        "status": "OPTIMAL",
+        "seconds": 0.012570199993206188,
+        "feasible": true
+      }
+    ]
+  },
+  {
+    "scenario": {
+      "supplier": "S08",
+      "kind": "outage",
+      "capacity_percent": 50,
+      "delay_days": 8,
+      "budget": 238960,
+      "assembly_capacity": null
+    },
+    "expected": [
+      {
+        "policy": "Existing sourcing",
+        "fulfilled": 105,
+        "demand": 149,
+        "fill_rate": 0.7046979865771812,
+        "weighted_fill_rate": 0.8641975308641975,
+        "score": 280,
+        "unfulfilled": 44,
+        "cost": 64920,
+        "sales_exposure": 968000,
+        "status": "FEASIBLE",
+        "seconds": 0.0007929999846965075,
+        "feasible": true
+      },
+      {
+        "policy": "Greedy recovery",
+        "fulfilled": 105,
+        "demand": 149,
+        "fill_rate": 0.7046979865771812,
+        "weighted_fill_rate": 0.8641975308641975,
+        "score": 280,
+        "unfulfilled": 44,
+        "cost": 64920,
+        "sales_exposure": 968000,
+        "status": "FEASIBLE",
+        "seconds": 0.0006625999812968075,
+        "feasible": true
+      },
+      {
+        "policy": "Optimized recovery",
+        "fulfilled": 105,
+        "demand": 149,
+        "fill_rate": 0.7046979865771812,
+        "weighted_fill_rate": 0.8641975308641975,
+        "score": 280,
+        "unfulfilled": 44,
+        "cost": 64920,
+        "sales_exposure": 968000,
+        "status": "OPTIMAL",
+        "seconds": 0.0053875999874435365,
+        "feasible": true
+      }
+    ]
+  },
+  {
+    "scenario": {
+      "supplier": "S08",
+      "kind": "capacity",
+      "capacity_percent": 50,
+      "delay_days": 8,
+      "budget": 0,
+      "assembly_capacity": null
+    },
+    "expected": [
+      {
+        "policy": "Existing sourcing",
+        "fulfilled": 24,
+        "demand": 149,
+        "fill_rate": 0.1610738255033557,
+        "weighted_fill_rate": 0.18518518518518517,
+        "score": 60,
+        "unfulfilled": 125,
+        "cost": 0,
+        "sales_exposure": 2119000,
+        "status": "FEASIBLE",
+        "seconds": 0.000242499983869493,
+        "feasible": true
+      },
+      {
+        "policy": "Greedy recovery",
+        "fulfilled": 24,
+        "demand": 149,
+        "fill_rate": 0.1610738255033557,
+        "weighted_fill_rate": 0.18518518518518517,
+        "score": 60,
+        "unfulfilled": 125,
+        "cost": 0,
+        "sales_exposure": 2119000,
+        "status": "FEASIBLE",
+        "seconds": 0.00019699998665601015,
+        "feasible": true
+      },
+      {
+        "policy": "Optimized recovery",
+        "fulfilled": 24,
+        "demand": 149,
+        "fill_rate": 0.1610738255033557,
+        "weighted_fill_rate": 0.18518518518518517,
+        "score": 60,
+        "unfulfilled": 125,
+        "cost": 0,
+        "sales_exposure": 2119000,
+        "status": "OPTIMAL",
+        "seconds": 0.004922899999655783,
+        "feasible": true
+      }
+    ]
+  },
+  {
+    "scenario": {
+      "supplier": "S08",
+      "kind": "capacity",
+      "capacity_percent": 50,
+      "delay_days": 8,
+      "budget": 59740,
+      "assembly_capacity": null
+    },
+    "expected": [
+      {
+        "policy": "Existing sourcing",
+        "fulfilled": 98,
+        "demand": 149,
+        "fill_rate": 0.6577181208053692,
+        "weighted_fill_rate": 0.8425925925925926,
+        "score": 273,
+        "unfulfilled": 51,
+        "cost": 59740,
+        "sales_exposure": 1122000,
+        "status": "FEASIBLE",
+        "seconds": 0.0007114000036381185,
+        "feasible": true
+      },
+      {
+        "policy": "Greedy recovery",
+        "fulfilled": 98,
+        "demand": 149,
+        "fill_rate": 0.6577181208053692,
+        "weighted_fill_rate": 0.8425925925925926,
+        "score": 273,
+        "unfulfilled": 51,
+        "cost": 59740,
+        "sales_exposure": 1122000,
+        "status": "FEASIBLE",
+        "seconds": 0.000582900014705956,
+        "feasible": true
+      },
+      {
+        "policy": "Optimized recovery",
+        "fulfilled": 98,
+        "demand": 149,
+        "fill_rate": 0.6577181208053692,
+        "weighted_fill_rate": 0.8425925925925926,
+        "score": 273,
+        "unfulfilled": 51,
+        "cost": 59740,
+        "sales_exposure": 1122000,
+        "status": "OPTIMAL",
+        "seconds": 0.009265000000596046,
+        "feasible": true
+      }
+    ]
+  },
+  {
+    "scenario": {
+      "supplier": "S08",
+      "kind": "capacity",
+      "capacity_percent": 50,
+      "delay_days": 8,
+      "budget": 238960,
+      "assembly_capacity": null
+    },
+    "expected": [
+      {
+        "policy": "Existing sourcing",
+        "fulfilled": 136,
+        "demand": 149,
+        "fill_rate": 0.912751677852349,
+        "weighted_fill_rate": 0.9598765432098766,
+        "score": 311,
+        "unfulfilled": 13,
+        "cost": 103360,
+        "sales_exposure": 286000,
+        "status": "FEASIBLE",
+        "seconds": 0.0010783000034280121,
+        "feasible": true
+      },
+      {
+        "policy": "Greedy recovery",
+        "fulfilled": 136,
+        "demand": 149,
+        "fill_rate": 0.912751677852349,
+        "weighted_fill_rate": 0.9598765432098766,
+        "score": 311,
+        "unfulfilled": 13,
+        "cost": 103360,
+        "sales_exposure": 286000,
+        "status": "FEASIBLE",
+        "seconds": 0.0009073000110220164,
+        "feasible": true
+      },
+      {
+        "policy": "Optimized recovery",
+        "fulfilled": 136,
+        "demand": 149,
+        "fill_rate": 0.912751677852349,
+        "weighted_fill_rate": 0.9598765432098766,
+        "score": 311,
+        "unfulfilled": 13,
+        "cost": 103360,
+        "sales_exposure": 286000,
+        "status": "OPTIMAL",
+        "seconds": 0.005395400017732754,
+        "feasible": true
+      }
+    ]
+  },
+  {
+    "scenario": {
+      "supplier": "S08",
+      "kind": "delay",
+      "capacity_percent": 50,
+      "delay_days": 8,
+      "budget": 0,
+      "assembly_capacity": null
+    },
+    "expected": [
+      {
+        "policy": "Existing sourcing",
+        "fulfilled": 24,
+        "demand": 149,
+        "fill_rate": 0.1610738255033557,
+        "weighted_fill_rate": 0.18518518518518517,
+        "score": 60,
+        "unfulfilled": 125,
+        "cost": 0,
+        "sales_exposure": 2119000,
+        "status": "FEASIBLE",
+        "seconds": 0.00023589999182149768,
+        "feasible": true
+      },
+      {
+        "policy": "Greedy recovery",
+        "fulfilled": 24,
+        "demand": 149,
+        "fill_rate": 0.1610738255033557,
+        "weighted_fill_rate": 0.18518518518518517,
+        "score": 60,
+        "unfulfilled": 125,
+        "cost": 0,
+        "sales_exposure": 2119000,
+        "status": "FEASIBLE",
+        "seconds": 0.00019099999917671084,
+        "feasible": true
+      },
+      {
+        "policy": "Optimized recovery",
+        "fulfilled": 24,
+        "demand": 149,
+        "fill_rate": 0.1610738255033557,
+        "weighted_fill_rate": 0.18518518518518517,
+        "score": 60,
+        "unfulfilled": 125,
+        "cost": 0,
+        "sales_exposure": 2119000,
+        "status": "OPTIMAL",
+        "seconds": 0.004754599998705089,
+        "feasible": true
+      }
+    ]
+  },
+  {
+    "scenario": {
+      "supplier": "S08",
+      "kind": "delay",
+      "capacity_percent": 50,
+      "delay_days": 8,
+      "budget": 59740,
+      "assembly_capacity": null
+    },
+    "expected": [
+      {
+        "policy": "Existing sourcing",
+        "fulfilled": 98,
+        "demand": 149,
+        "fill_rate": 0.6577181208053692,
+        "weighted_fill_rate": 0.8425925925925926,
+        "score": 273,
+        "unfulfilled": 51,
+        "cost": 59740,
+        "sales_exposure": 1122000,
+        "status": "FEASIBLE",
+        "seconds": 0.0006985999934840947,
+        "feasible": true
+      },
+      {
+        "policy": "Greedy recovery",
+        "fulfilled": 98,
+        "demand": 149,
+        "fill_rate": 0.6577181208053692,
+        "weighted_fill_rate": 0.8425925925925926,
+        "score": 273,
+        "unfulfilled": 51,
+        "cost": 59740,
+        "sales_exposure": 1122000,
+        "status": "FEASIBLE",
+        "seconds": 0.0005770999996457249,
+        "feasible": true
+      },
+      {
+        "policy": "Optimized recovery",
+        "fulfilled": 98,
+        "demand": 149,
+        "fill_rate": 0.6577181208053692,
+        "weighted_fill_rate": 0.8425925925925926,
+        "score": 273,
+        "unfulfilled": 51,
+        "cost": 59740,
+        "sales_exposure": 1122000,
+        "status": "OPTIMAL",
+        "seconds": 0.010222100012470037,
+        "feasible": true
+      }
+    ]
+  },
+  {
+    "scenario": {
+      "supplier": "S08",
+      "kind": "delay",
+      "capacity_percent": 50,
+      "delay_days": 8,
+      "budget": 238960,
+      "assembly_capacity": null
+    },
+    "expected": [
+      {
+        "policy": "Existing sourcing",
+        "fulfilled": 105,
+        "demand": 149,
+        "fill_rate": 0.7046979865771812,
+        "weighted_fill_rate": 0.8641975308641975,
+        "score": 280,
+        "unfulfilled": 44,
+        "cost": 64920,
+        "sales_exposure": 968000,
+        "status": "FEASIBLE",
+        "seconds": 0.0008201999880839139,
+        "feasible": true
+      },
+      {
+        "policy": "Greedy recovery",
+        "fulfilled": 105,
+        "demand": 149,
+        "fill_rate": 0.7046979865771812,
+        "weighted_fill_rate": 0.8641975308641975,
+        "score": 280,
+        "unfulfilled": 44,
+        "cost": 64920,
+        "sales_exposure": 968000,
+        "status": "FEASIBLE",
+        "seconds": 0.00067120001767762,
+        "feasible": true
+      },
+      {
+        "policy": "Optimized recovery",
+        "fulfilled": 105,
+        "demand": 149,
+        "fill_rate": 0.7046979865771812,
+        "weighted_fill_rate": 0.8641975308641975,
+        "score": 280,
+        "unfulfilled": 44,
+        "cost": 64920,
+        "sales_exposure": 968000,
+        "status": "OPTIMAL",
+        "seconds": 0.005325500009348616,
+        "feasible": true
+      }
+    ]
+  }
+]

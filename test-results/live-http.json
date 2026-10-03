@@ -1,0 +1,124 @@
+{
+  "tested_at_utc": "2026-10-03T15:28:47.659414+00:00",
+  "server": "http://127.0.0.1:8766",
+  "passed": 23,
+  "total": 23,
+  "checks": [
+    {
+      "name": "GET /health",
+      "passed": true,
+      "seconds": 0.029126100009307265
+    },
+    {
+      "name": "POST reference outage: 15/20, JPY 200",
+      "passed": true,
+      "seconds": 0.00938309999764897
+    },
+    {
+      "name": "POST none, budget 0",
+      "passed": true,
+      "seconds": 0.010958700004266575
+    },
+    {
+      "name": "POST none, budget 20000",
+      "passed": true,
+      "seconds": 0.016957599989837036
+    },
+    {
+      "name": "POST none, budget 500000",
+      "passed": true,
+      "seconds": 0.013517700019292533
+    },
+    {
+      "name": "POST outage, budget 0",
+      "passed": true,
+      "seconds": 0.01099060001433827
+    },
+    {
+      "name": "POST outage, budget 20000",
+      "passed": true,
+      "seconds": 0.01869619998615235
+    },
+    {
+      "name": "POST outage, budget 500000",
+      "passed": true,
+      "seconds": 0.011767699994379655
+    },
+    {
+      "name": "POST capacity, budget 0",
+      "passed": true,
+      "seconds": 0.010957799997413531
+    },
+    {
+      "name": "POST capacity, budget 20000",
+      "passed": true,
+      "seconds": 0.0160899999900721
+    },
+    {
+      "name": "POST capacity, budget 500000",
+      "passed": true,
+      "seconds": 0.012168000015662983
+    },
+    {
+      "name": "POST delay, budget 0",
+      "passed": true,
+      "seconds": 0.010802899982081726
+    },
+    {
+      "name": "POST delay, budget 20000",
+      "passed": true,
+      "seconds": 0.01829470001393929
+    },
+    {
+      "name": "POST delay, budget 500000",
+      "passed": true,
+      "seconds": 0.013120299990987405
+    },
+    {
+      "name": "Negative budget rejected",
+      "passed": true,
+      "seconds": 0.0015045999898575246
+    },
+    {
+      "name": "Unknown disruption rejected",
+      "passed": true,
+      "seconds": 0.0026262000028509647
+    },
+    {
+      "name": "Unbounded solver time rejected",
+      "passed": true,
+      "seconds": 0.0015856999962124974
+    },
+    {
+      "name": "Unknown supplier rejected",
+      "passed": true,
+      "seconds": 0.0016512000001966953
+    },
+    {
+      "name": "POST fixed-policy stress: 50 outcomes",
+      "passed": true,
+      "seconds": 0.014911100006429479
+    },
+    {
+      "name": "POST daily: future arrivals cannot fulfill early deadline",
+      "passed": true,
+      "seconds": 0.005023400008212775
+    },
+    {
+      "name": "Malformed nested BOM rejected",
+      "passed": true,
+      "seconds": 0.0017319000035058707
+    },
+    {
+      "name": "Empty case rejected instead of replacing it with sample",
+      "passed": true,
+      "seconds": 0.002138799987733364
+    },
+    {
+      "name": "Versioned API exposes model version and input hash",
+      "passed": true,
+      "seconds": 0.013763800001470372
+    }
+  ],
+  "test_type": "Real HTTP requests to a separately running server"
+}
