@@ -6,12 +6,18 @@ from time import perf_counter
 from ortools.sat.python import cp_model
 
 from .engine import Scenario, apply_scenario, empty_plan, requirements
+from . import __version__
+from .reports import input_hash
 from .validation import integer, validate_case
 
 
 def daily_scenario(source, scenario):
+    if not isinstance(source, dict) or not isinstance(source.get("orders"), list):
+        raise ValueError("Daily case requires an orders table")
     common = deepcopy(source)
     for o in source["orders"]:
+        if not isinstance(o, dict):
+            raise ValueError("Order rows must be objects")
         integer(o.get("due_day"), "due_day", 1, source["horizon"])
     for o in common["orders"]:
         o["due_day"] = common["horizon"]
@@ -50,6 +56,8 @@ def check_daily(case, plan, daily_minutes):
             continue
         if d + case["assembly_reserve"] > o["due_day"]:
             errors.append("Order deadline missed")
+        if row.get("product") != o["product"] or row.get("delivery_day") != d + case["assembly_reserve"]:
+            errors.append("Schedule product or delivery mismatch")
         fulfilled[o["id"]] += n
         used_daily[d] += n * minutes[o["product"]]
         for c, units in req[o["product"]].items():
@@ -68,6 +76,8 @@ def check_daily(case, plan, daily_minutes):
             errors.append("Order allocation mismatch")
     if cost > case["budget"]:
         errors.append("Budget exceeded")
+    if sum(used_daily.values()) > case["assembly_limit"]:
+        errors.append("Total assembly capacity exceeded")
     return {"valid": not errors, "errors": sorted(set(errors)), "inventory_history": history, "cost": cost}
 
 
@@ -133,4 +143,5 @@ def optimize_daily(source, scenario=None, daily_minutes=500, seconds=5):
     checked = check_daily(c, plan, daily_minutes)
     if not checked["valid"]:
         raise RuntimeError(str(checked["errors"]))
-    return {"case": c, "plan": plan, "check": checked}
+    return {"case": c, "plan": plan, "check": checked, "model_version": __version__,
+            "input_hash": input_hash(c), "solver_limit_seconds": seconds}

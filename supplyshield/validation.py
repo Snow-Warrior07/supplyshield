@@ -36,6 +36,8 @@ def validate_case(case):
         raise ValueError("Invalid BOM")
     seen = set()
     for b in bom:
+        if not isinstance(b, dict):
+            raise ValueError("BOM rows must be objects")
         if b.get("product") not in refs["products"] or b.get("component") not in refs["components"]:
             raise ValueError("Unknown BOM reference")
         key = (b["product"], b["component"])

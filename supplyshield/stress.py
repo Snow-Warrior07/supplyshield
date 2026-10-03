@@ -14,6 +14,7 @@ def stress_fixed_plan(source, scenario, plan, samples=50, seed=41):
     for i in range(samples):
         severity = rng.choice([0, 50, 100])
         delay = rng.choice([0, 3, 8])
+        demand_percent = rng.choice([80, 100, 120])
         sampled = apply_scenario(source, Scenario(supplier=scenario.supplier, kind="capacity",
                                                   capacity_percent=severity, budget=scenario.budget,
                                                   assembly_capacity=scenario.assembly_capacity))
@@ -31,15 +32,18 @@ def stress_fixed_plan(source, scenario, plan, samples=50, seed=41):
             missing += requested - delivered
         realized = deepcopy(sampled)
         realized.update({"stock": inventory, "offers": [], "planned": {}, "budget": 0})
+        for order in realized["orders"]:
+            order["quantity"] = max(1, (order["quantity"] * demand_percent + 99) // 100)
         allocation = greedy(realized)
         m = metrics(realized, allocation)
         outcomes.append({"sample": i + 1, "capacity_percent": severity, "additional_delay": delay,
+                         "demand_percent": demand_percent,
                          "fulfilled": m["fulfilled"], "fill_rate": m["fill_rate"], "score": m["score"],
                          "committed_purchase_cost": committed, "received_units": received,
                          "late_or_unavailable_units": missing})
     rates = sorted(o["fill_rate"] for o in outcomes if o["fill_rate"] is not None)
     return {"seed": seed, "samples": samples, "policy": plan["policy"], "fixed_purchases": plan["purchases"],
-            "assumptions": "Independent uniform choices of 0/50/100% capacity and 0/3/8 days extra delay; not estimated probabilities.",
+            "assumptions": "Independent uniform choices: 0/50/100% capacity, 0/3/8 days extra delay, 80/100/120% demand (rounded up per order). These are assumptions, not estimated probabilities.",
             "mean_fill_rate": sum(rates) / len(rates) if rates else None,
             "worst_fill_rate": min(rates) if rates else None,
             "p10_fill_rate": rates[int((len(rates)-1)*.1)] if rates else None,
