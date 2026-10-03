@@ -1,0 +1,10 @@
+ortools==9.15.6755
+streamlit==1.65.0
+networkx==3.7
+fastapi==0.142.2
+uvicorn==0.54.0
+pandas>=2.2,<4
+plotly>=6,<7
+httpx==0.28.1
+pytest==9.1.1
+ruff==0.16.10

@@ -1,0 +1,15 @@
+[project]
+name = "supplyshield"
+version = "0.1.0"
+description = "Reviewable supplier disruption and constrained recovery planning"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 110
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]

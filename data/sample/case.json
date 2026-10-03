@@ -1,0 +1,770 @@
+{
+  "name": "Synthetic Japan electronics assembler",
+  "seed": 7,
+  "synthetic": true,
+  "currency": "JPY",
+  "money_unit": "whole yen",
+  "horizon": 7,
+  "assembly_reserve": 1,
+  "default_budget": 238960,
+  "assembly_capacity": 10000,
+  "suppliers": [
+    {
+      "id": "S01",
+      "name": "Sample supplier 01",
+      "location": "Osaka"
+    },
+    {
+      "id": "S02",
+      "name": "Sample supplier 02",
+      "location": "Nagoya"
+    },
+    {
+      "id": "S03",
+      "name": "Sample supplier 03",
+      "location": "Sendai"
+    },
+    {
+      "id": "S04",
+      "name": "Sample supplier 04",
+      "location": "Tokyo"
+    },
+    {
+      "id": "S05",
+      "name": "Sample supplier 05",
+      "location": "Osaka"
+    },
+    {
+      "id": "S06",
+      "name": "Sample supplier 06",
+      "location": "Nagoya"
+    },
+    {
+      "id": "S07",
+      "name": "Sample supplier 07",
+      "location": "Sendai"
+    },
+    {
+      "id": "S08",
+      "name": "Sample supplier 08",
+      "location": "Tokyo"
+    },
+    {
+      "id": "S09",
+      "name": "Sample supplier 09",
+      "location": "Osaka"
+    },
+    {
+      "id": "S10",
+      "name": "Sample supplier 10",
+      "location": "Nagoya"
+    },
+    {
+      "id": "S11",
+      "name": "Sample supplier 11",
+      "location": "Sendai"
+    },
+    {
+      "id": "S12",
+      "name": "Sample supplier 12",
+      "location": "Tokyo"
+    },
+    {
+      "id": "S13",
+      "name": "Sample supplier 13",
+      "location": "Osaka"
+    },
+    {
+      "id": "S14",
+      "name": "Sample supplier 14",
+      "location": "Nagoya"
+    },
+    {
+      "id": "S15",
+      "name": "Sample supplier 15",
+      "location": "Sendai"
+    },
+    {
+      "id": "S16",
+      "name": "Sample supplier 16",
+      "location": "Tokyo"
+    },
+    {
+      "id": "S17",
+      "name": "Sample supplier 17",
+      "location": "Osaka"
+    },
+    {
+      "id": "S18",
+      "name": "Sample supplier 18",
+      "location": "Nagoya"
+    },
+    {
+      "id": "S19",
+      "name": "Sample supplier 19",
+      "location": "Sendai"
+    },
+    {
+      "id": "S20",
+      "name": "Sample supplier 20",
+      "location": "Tokyo"
+    }
+  ],
+  "components": [
+    {
+      "id": "C1",
+      "name": "MCU"
+    },
+    {
+      "id": "C2",
+      "name": "Power IC"
+    },
+    {
+      "id": "C3",
+      "name": "Housing"
+    },
+    {
+      "id": "C4",
+      "name": "Sensor"
+    },
+    {
+      "id": "C5",
+      "name": "PCB"
+    },
+    {
+      "id": "C6",
+      "name": "Connector"
+    },
+    {
+      "id": "C7",
+      "name": "Display"
+    },
+    {
+      "id": "C8",
+      "name": "Seal"
+    }
+  ],
+  "products": [
+    {
+      "id": "P1",
+      "name": "Standard controller",
+      "assembly_minutes": 8
+    },
+    {
+      "id": "P2",
+      "name": "Sensor module",
+      "assembly_minutes": 10
+    },
+    {
+      "id": "P3",
+      "name": "Pro controller",
+      "assembly_minutes": 12
+    }
+  ],
+  "bom": [
+    {
+      "product": "P1",
+      "component": "C1",
+      "units": 2
+    },
+    {
+      "product": "P1",
+      "component": "C2",
+      "units": 1
+    },
+    {
+      "product": "P1",
+      "component": "C3",
+      "units": 1
+    },
+    {
+      "product": "P1",
+      "component": "C5",
+      "units": 1
+    },
+    {
+      "product": "P2",
+      "component": "C1",
+      "units": 1
+    },
+    {
+      "product": "P2",
+      "component": "C4",
+      "units": 2
+    },
+    {
+      "product": "P2",
+      "component": "C5",
+      "units": 1
+    },
+    {
+      "product": "P2",
+      "component": "C6",
+      "units": 1
+    },
+    {
+      "product": "P3",
+      "component": "C1",
+      "units": 2
+    },
+    {
+      "product": "P3",
+      "component": "C2",
+      "units": 1
+    },
+    {
+      "product": "P3",
+      "component": "C3",
+      "units": 1
+    },
+    {
+      "product": "P3",
+      "component": "C5",
+      "units": 1
+    },
+    {
+      "product": "P3",
+      "component": "C7",
+      "units": 1
+    },
+    {
+      "product": "P3",
+      "component": "C8",
+      "units": 1
+    }
+  ],
+  "stock": {
+    "C1": 43,
+    "C2": 18,
+    "C3": 18,
+    "C4": 13,
+    "C5": 24,
+    "C6": 6,
+    "C7": 8,
+    "C8": 8
+  },
+  "offers": [
+    {
+      "id": "F1N",
+      "supplier": "S01",
+      "component": "C1",
+      "mode": "normal",
+      "capacity": 269,
+      "lead_days": 2,
+      "cost": 120,
+      "approved": true
+    },
+    {
+      "id": "F1E",
+      "supplier": "S01",
+      "component": "C1",
+      "mode": "expedited",
+      "capacity": 269,
+      "lead_days": 1,
+      "cost": 175,
+      "approved": true
+    },
+    {
+      "id": "A1",
+      "supplier": "S09",
+      "component": "C1",
+      "mode": "normal",
+      "capacity": 194,
+      "lead_days": 4,
+      "cost": 190,
+      "approved": true
+    },
+    {
+      "id": "F2N",
+      "supplier": "S02",
+      "component": "C2",
+      "mode": "normal",
+      "capacity": 120,
+      "lead_days": 2,
+      "cost": 140,
+      "approved": true
+    },
+    {
+      "id": "F2E",
+      "supplier": "S02",
+      "component": "C2",
+      "mode": "expedited",
+      "capacity": 120,
+      "lead_days": 1,
+      "cost": 200,
+      "approved": true
+    },
+    {
+      "id": "A2",
+      "supplier": "S10",
+      "component": "C2",
+      "mode": "normal",
+      "capacity": 82,
+      "lead_days": 4,
+      "cost": 220,
+      "approved": true
+    },
+    {
+      "id": "F3N",
+      "supplier": "S03",
+      "component": "C3",
+      "mode": "normal",
+      "capacity": 120,
+      "lead_days": 2,
+      "cost": 160,
+      "approved": true
+    },
+    {
+      "id": "F3E",
+      "supplier": "S03",
+      "component": "C3",
+      "mode": "expedited",
+      "capacity": 120,
+      "lead_days": 1,
+      "cost": 225,
+      "approved": true
+    },
+    {
+      "id": "A3",
+      "supplier": "S11",
+      "component": "C3",
+      "mode": "normal",
+      "capacity": 82,
+      "lead_days": 4,
+      "cost": 250,
+      "approved": true
+    },
+    {
+      "id": "F4N",
+      "supplier": "S04",
+      "component": "C4",
+      "mode": "normal",
+      "capacity": 88,
+      "lead_days": 2,
+      "cost": 180,
+      "approved": true
+    },
+    {
+      "id": "F4E",
+      "supplier": "S04",
+      "component": "C4",
+      "mode": "expedited",
+      "capacity": 88,
+      "lead_days": 1,
+      "cost": 250,
+      "approved": true
+    },
+    {
+      "id": "A4",
+      "supplier": "S12",
+      "component": "C4",
+      "mode": "normal",
+      "capacity": 58,
+      "lead_days": 4,
+      "cost": 280,
+      "approved": true
+    },
+    {
+      "id": "F5N",
+      "supplier": "S05",
+      "component": "C5",
+      "mode": "normal",
+      "capacity": 159,
+      "lead_days": 2,
+      "cost": 200,
+      "approved": true
+    },
+    {
+      "id": "F5E",
+      "supplier": "S05",
+      "component": "C5",
+      "mode": "expedited",
+      "capacity": 159,
+      "lead_days": 1,
+      "cost": 275,
+      "approved": true
+    },
+    {
+      "id": "A5",
+      "supplier": "S13",
+      "component": "C5",
+      "mode": "normal",
+      "capacity": 111,
+      "lead_days": 4,
+      "cost": 310,
+      "approved": true
+    },
+    {
+      "id": "F6N",
+      "supplier": "S06",
+      "component": "C6",
+      "mode": "normal",
+      "capacity": 49,
+      "lead_days": 2,
+      "cost": 220,
+      "approved": true
+    },
+    {
+      "id": "F6E",
+      "supplier": "S06",
+      "component": "C6",
+      "mode": "expedited",
+      "capacity": 49,
+      "lead_days": 1,
+      "cost": 300,
+      "approved": true
+    },
+    {
+      "id": "A6",
+      "supplier": "S14",
+      "component": "C6",
+      "mode": "normal",
+      "capacity": 29,
+      "lead_days": 4,
+      "cost": 340,
+      "approved": true
+    },
+    {
+      "id": "F7N",
+      "supplier": "S07",
+      "component": "C7",
+      "mode": "normal",
+      "capacity": 62,
+      "lead_days": 2,
+      "cost": 240,
+      "approved": true
+    },
+    {
+      "id": "F7E",
+      "supplier": "S07",
+      "component": "C7",
+      "mode": "expedited",
+      "capacity": 62,
+      "lead_days": 1,
+      "cost": 325,
+      "approved": true
+    },
+    {
+      "id": "A7",
+      "supplier": "S15",
+      "component": "C7",
+      "mode": "normal",
+      "capacity": 39,
+      "lead_days": 4,
+      "cost": 370,
+      "approved": true
+    },
+    {
+      "id": "F8N",
+      "supplier": "S08",
+      "component": "C8",
+      "mode": "normal",
+      "capacity": 62,
+      "lead_days": 2,
+      "cost": 260,
+      "approved": true
+    },
+    {
+      "id": "F8E",
+      "supplier": "S08",
+      "component": "C8",
+      "mode": "expedited",
+      "capacity": 62,
+      "lead_days": 1,
+      "cost": 350,
+      "approved": true
+    },
+    {
+      "id": "L17",
+      "supplier": "S17",
+      "component": "C1",
+      "mode": "normal",
+      "capacity": 100,
+      "lead_days": 10,
+      "cost": 50,
+      "approved": true
+    },
+    {
+      "id": "L18",
+      "supplier": "S18",
+      "component": "C1",
+      "mode": "normal",
+      "capacity": 100,
+      "lead_days": 10,
+      "cost": 50,
+      "approved": true
+    },
+    {
+      "id": "L19",
+      "supplier": "S19",
+      "component": "C1",
+      "mode": "normal",
+      "capacity": 100,
+      "lead_days": 10,
+      "cost": 50,
+      "approved": true
+    },
+    {
+      "id": "L20",
+      "supplier": "S20",
+      "component": "C1",
+      "mode": "normal",
+      "capacity": 100,
+      "lead_days": 10,
+      "cost": 50,
+      "approved": true
+    }
+  ],
+  "orders": [
+    {
+      "id": "O01",
+      "product": "P1",
+      "quantity": 5,
+      "priority": 2,
+      "price": 12000,
+      "due_day": 7
+    },
+    {
+      "id": "O02",
+      "product": "P2",
+      "quantity": 4,
+      "priority": 4,
+      "price": 15000,
+      "due_day": 7
+    },
+    {
+      "id": "O03",
+      "product": "P3",
+      "quantity": 6,
+      "priority": 1,
+      "price": 22000,
+      "due_day": 7
+    },
+    {
+      "id": "O04",
+      "product": "P1",
+      "quantity": 8,
+      "priority": 2,
+      "price": 12000,
+      "due_day": 7
+    },
+    {
+      "id": "O05",
+      "product": "P2",
+      "quantity": 3,
+      "priority": 4,
+      "price": 15000,
+      "due_day": 7
+    },
+    {
+      "id": "O06",
+      "product": "P3",
+      "quantity": 3,
+      "priority": 1,
+      "price": 22000,
+      "due_day": 7
+    },
+    {
+      "id": "O07",
+      "product": "P1",
+      "quantity": 7,
+      "priority": 2,
+      "price": 12000,
+      "due_day": 7
+    },
+    {
+      "id": "O08",
+      "product": "P2",
+      "quantity": 3,
+      "priority": 4,
+      "price": 15000,
+      "due_day": 7
+    },
+    {
+      "id": "O09",
+      "product": "P3",
+      "quantity": 5,
+      "priority": 1,
+      "price": 22000,
+      "due_day": 7
+    },
+    {
+      "id": "O10",
+      "product": "P1",
+      "quantity": 7,
+      "priority": 2,
+      "price": 12000,
+      "due_day": 7
+    },
+    {
+      "id": "O11",
+      "product": "P2",
+      "quantity": 3,
+      "priority": 4,
+      "price": 15000,
+      "due_day": 7
+    },
+    {
+      "id": "O12",
+      "product": "P3",
+      "quantity": 7,
+      "priority": 1,
+      "price": 22000,
+      "due_day": 7
+    },
+    {
+      "id": "O13",
+      "product": "P1",
+      "quantity": 4,
+      "priority": 2,
+      "price": 12000,
+      "due_day": 7
+    },
+    {
+      "id": "O14",
+      "product": "P2",
+      "quantity": 3,
+      "priority": 4,
+      "price": 15000,
+      "due_day": 7
+    },
+    {
+      "id": "O15",
+      "product": "P3",
+      "quantity": 3,
+      "priority": 1,
+      "price": 22000,
+      "due_day": 7
+    },
+    {
+      "id": "O16",
+      "product": "P1",
+      "quantity": 6,
+      "priority": 2,
+      "price": 12000,
+      "due_day": 7
+    },
+    {
+      "id": "O17",
+      "product": "P2",
+      "quantity": 6,
+      "priority": 4,
+      "price": 15000,
+      "due_day": 7
+    },
+    {
+      "id": "O18",
+      "product": "P3",
+      "quantity": 3,
+      "priority": 1,
+      "price": 22000,
+      "due_day": 7
+    },
+    {
+      "id": "O19",
+      "product": "P1",
+      "quantity": 4,
+      "priority": 2,
+      "price": 12000,
+      "due_day": 7
+    },
+    {
+      "id": "O20",
+      "product": "P2",
+      "quantity": 3,
+      "priority": 4,
+      "price": 15000,
+      "due_day": 7
+    },
+    {
+      "id": "O21",
+      "product": "P3",
+      "quantity": 7,
+      "priority": 1,
+      "price": 22000,
+      "due_day": 7
+    },
+    {
+      "id": "O22",
+      "product": "P1",
+      "quantity": 6,
+      "priority": 2,
+      "price": 12000,
+      "due_day": 7
+    },
+    {
+      "id": "O23",
+      "product": "P2",
+      "quantity": 3,
+      "priority": 4,
+      "price": 15000,
+      "due_day": 7
+    },
+    {
+      "id": "O24",
+      "product": "P3",
+      "quantity": 7,
+      "priority": 1,
+      "price": 22000,
+      "due_day": 7
+    },
+    {
+      "id": "O25",
+      "product": "P1",
+      "quantity": 3,
+      "priority": 2,
+      "price": 12000,
+      "due_day": 7
+    },
+    {
+      "id": "O26",
+      "product": "P2",
+      "quantity": 4,
+      "priority": 4,
+      "price": 15000,
+      "due_day": 7
+    },
+    {
+      "id": "O27",
+      "product": "P3",
+      "quantity": 8,
+      "priority": 1,
+      "price": 22000,
+      "due_day": 7
+    },
+    {
+      "id": "O28",
+      "product": "P1",
+      "quantity": 8,
+      "priority": 2,
+      "price": 12000,
+      "due_day": 7
+    },
+    {
+      "id": "O29",
+      "product": "P2",
+      "quantity": 7,
+      "priority": 4,
+      "price": 15000,
+      "due_day": 7
+    },
+    {
+      "id": "O30",
+      "product": "P3",
+      "quantity": 3,
+      "priority": 1,
+      "price": 22000,
+      "due_day": 7
+    }
+  ],
+  "planned": {
+    "F1N": 216,
+    "F2N": 92,
+    "F3N": 92,
+    "F4N": 65,
+    "F5N": 125,
+    "F6N": 33,
+    "F7N": 44,
+    "F8N": 44
+  }
+}
