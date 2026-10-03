@@ -1,5 +1,5 @@
 {
-  "published_at_utc": "2026-10-03T15:32:41.515378+00:00",
+  "published_at_utc": "2026-10-03T15:49:13.703195+00:00",
   "unit_and_ui": {
     "tests": 41,
     "failures": 0,
@@ -446,5 +446,96 @@
       }
     ],
     "test_type": "Real HTTP requests to a separately running server"
+  },
+  "public-browser": {
+    "tested_at_utc": "2026-10-03T15:46:20.042Z",
+    "url": "https://snow-warrior07.github.io/supplyshield/",
+    "checks": [
+      {
+        "name": "Hand-calculated outage: 15 / 20",
+        "passed": true
+      },
+      {
+        "name": "Zero budget: existing stock only",
+        "passed": true
+      },
+      {
+        "name": "Current scenario: independent checks",
+        "passed": true
+      },
+      {
+        "name": "Late alternative rejected",
+        "passed": true
+      },
+      {
+        "name": "Missing BOM part stops assembly",
+        "passed": true
+      },
+      {
+        "name": "Corrupted allocation rejected",
+        "passed": true
+      },
+      {
+        "name": "Published outage preset matches Python",
+        "passed": true,
+        "expected_fulfilled": 138,
+        "observed": "Optimized recovery\t138 / 149\t96.6%\t\u00c2\u00a5119,420\tOPTIMAL"
+      },
+      {
+        "name": "Published none preset matches Python",
+        "passed": true,
+        "expected_fulfilled": 149,
+        "observed": "Optimized recovery\t149 / 149\t100.0%\t\u00c2\u00a5119,480\tOPTIMAL"
+      },
+      {
+        "name": "Published sole preset matches Python",
+        "passed": true,
+        "expected_fulfilled": 105,
+        "observed": "Optimized recovery\t105 / 149\t86.4%\t\u00c2\u00a564,920\tOPTIMAL"
+      },
+      {
+        "name": "Published delay preset matches Python",
+        "passed": true,
+        "expected_fulfilled": 138,
+        "observed": "Optimized recovery\t138 / 149\t96.6%\t\u00c2\u00a5119,420\tOPTIMAL"
+      },
+      {
+        "name": "Published capacity preset matches Python",
+        "passed": true,
+        "expected_fulfilled": 149,
+        "observed": "Optimized recovery\t149 / 149\t100.0%\t\u00c2\u00a5125,220\tOPTIMAL"
+      },
+      {
+        "name": "Published budget preset matches Python",
+        "passed": true,
+        "expected_fulfilled": 53,
+        "observed": "Optimized recovery\t53 / 149\t56.8%\t\u00c2\u00a529,320\tOPTIMAL"
+      },
+      {
+        "name": "Published zero budget: 24 units, zero purchases",
+        "passed": true,
+        "observed": "Optimized recovery\t24 / 149\t18.5%\t\u00c2\u00a50\tOPTIMAL"
+      },
+      {
+        "name": "Published negative budget rejected",
+        "passed": true,
+        "observed": "Enter nonnegative whole-number budget and assembly limits."
+      },
+      {
+        "name": "Actual downloaded management report contains the selected scenario and 138/149 result",
+        "passed": true
+      },
+      {
+        "name": "Actual downloaded JSON preserves all independently feasible allocations",
+        "passed": true
+      }
+    ],
+    "browser_test_output": "PASS Hand-calculated outage: 15 / 20\nPASS Zero budget: existing stock only\nPASS Current scenario: independent checks\nPASS Late alternative rejected\nPASS Missing BOM part stops assembly\nPASS Corrupted allocation rejected\n\n6 / 6 live checks passed.",
+    "notes": [
+      "The browser download-event API timed out; exported files are verified separately from Downloads.",
+      "Both exported files were found in Downloads and their actual content was checked."
+    ],
+    "passed": 16,
+    "total": 16
   }
 }

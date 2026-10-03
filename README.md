@@ -4,6 +4,8 @@ Supplier disruption and recovery planning for a synthetic electronics assembler.
 
 **[Live decision lab](https://snow-warrior07.github.io/supplyshield/)** · [Phase plan](planning/phase-plan.md) · [Results by phase](planning/phase-results.md) · [Placement preparation](planning/placement-preparation.md)
 
+[Two-minute screenshot walkthrough](https://snow-warrior07.github.io/supplyshield/walkthrough.mp4) · [Consulting case study](planning/case-study.md) · [Model and data](planning/model-and-data.md)
+
 ![SupplyShield decision lab](docs/screenshot.png)
 
 ## The business decision
