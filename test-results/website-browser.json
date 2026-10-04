@@ -1,0 +1,151 @@
+{
+  "checked_at_utc": "2026-10-04T17:59:01.571Z",
+  "environment": "Local website in Chromium in-app browser; desktop default and 390 × 844 viewport",
+  "checks": [
+    {
+      "name": "Default worker produces 138/149 and JPY 119420",
+      "passed": true
+    },
+    {
+      "name": "Preset none",
+      "passed": true,
+      "observed": "Existing sourcing149 / 149100.0%¥119,480FEASIBLEGreedy recovery149 / 149100.0%¥119,480FEASIBLEOptimized recovery149 / 149100.0%¥119,480OPTIMAL"
+    },
+    {
+      "name": "Preset sole",
+      "passed": true,
+      "observed": "Existing sourcing105 / 14986.4%¥64,920FEASIBLEGreedy recovery105 / 14986.4%¥64,920FEASIBLEOptimized recovery105 / 14986.4%¥64,920OPTIMAL"
+    },
+    {
+      "name": "Preset capacity",
+      "passed": true,
+      "observed": "Existing sourcing108 / 14987.3%¥68,640FEASIBLEGreedy recovery149 / 149100.0%¥125,220FEASIBLEOptimized recovery149 / 149100.0%¥125,220OPTIMAL"
+    },
+    {
+      "name": "Preset delay",
+      "passed": true,
+      "observed": "Existing sourcing41 / 14949.4%¥22,360FEASIBLEGreedy recovery138 / 14996.6%¥119,420FEASIBLEOptimized recovery138 / 14996.6%¥119,420OPTIMAL"
+    },
+    {
+      "name": "Preset budget",
+      "passed": true,
+      "observed": "Existing sourcing41 / 14949.4%¥22,360FEASIBLEGreedy recovery53 / 14956.8%¥29,320FEASIBLEOptimized recovery53 / 14956.8%¥29,320OPTIMAL"
+    },
+    {
+      "name": "Preset outage",
+      "passed": true,
+      "observed": "Existing sourcing41 / 14949.4%¥22,360FEASIBLEGreedy recovery138 / 14996.6%¥119,420FEASIBLEOptimized recovery138 / 14996.6%¥119,420OPTIMAL"
+    },
+    {
+      "name": "Automatic zero-budget update",
+      "passed": true,
+      "observed": "On-time unit fill\n16.1%\n24 of 149 units\nPriority fulfillment\n18.5%\n60 weighted units\nRecovery purchases\n¥0\n¥0 budget remains\nUnfilled units\n125\n27 orders with shortfall"
+    },
+    {
+      "name": "Policy selection updates displayed metrics",
+      "passed": true,
+      "observed": "On-time unit fill\n27.5%\n41 of 149 units\nPriority fulfillment\n49.4%\n160 weighted units\nRecovery purchases\n¥22,360\n¥216,600 budget remains\nUnfilled units\n108\n20 orders with shortfall"
+    },
+    {
+      "name": "Order shortfall filter",
+      "passed": true,
+      "observed": "Optimized recovery · 2 of 30 orders have a shortfall. Showing 2."
+    },
+    {
+      "name": "Order search",
+      "passed": true,
+      "observed": "O27Pro controller10 / 88"
+    },
+    {
+      "name": "Supplier inspection",
+      "passed": true,
+      "observed": "SUPPLIER / S08\nSample supplier 08\n\nTokyo · display label\n\n1\n\ncomponents offered · 1 dependent SKUs\n\nC8 · 2 eligible shipping offers\nModel this supplier ↗"
+    },
+    {
+      "name": "Network models selected supplier",
+      "passed": true,
+      "observed": "On-time unit fill\n70.5%\n105 of 149 units\nPriority fulfillment\n86.4%\n280 weighted units\nRecovery purchases\n¥64,920\n¥174,040 budget remains\nUnfilled units\n44\n9 orders with shortfall"
+    },
+    {
+      "name": "Share link contains active scenario",
+      "passed": true,
+      "observed": "http://127.0.0.1:8008/?supplier=S08&kind=outage&capacity_percent=50&delay_days=8&budget=238960&assembly_capacity=10000&demand_percent=100#lab"
+    },
+    {
+      "name": "Saved scenario restores and recomputes",
+      "passed": true
+    },
+    {
+      "name": "Demand slider recomputes and verifies",
+      "passed": true,
+      "observed": "30 orders · 233 units · ¥238,960 budget · 150% sample demand"
+    },
+    {
+      "name": "Manual mode disables stale exports",
+      "passed": true
+    },
+    {
+      "name": "Manual compare refreshes results",
+      "passed": true
+    },
+    {
+      "name": "Budget curve and fixed-purchase stress complete",
+      "passed": true,
+      "observed": "Complete · 6 budget choices · 50 seeded outcomes · fixed purchases"
+    },
+    {
+      "name": "Budget chart applies selected point",
+      "passed": true
+    },
+    {
+      "name": "Six live correctness checks",
+      "passed": true
+    },
+    {
+      "name": "Keyboard tab navigation",
+      "passed": true
+    },
+    {
+      "name": "Guided tour opens",
+      "passed": true
+    },
+    {
+      "name": "Guided tour completes into lab",
+      "passed": true
+    },
+    {
+      "name": "Rapid input changes keep latest result",
+      "passed": true
+    },
+    {
+      "name": "Shared URL reload recomputes scenario",
+      "passed": true
+    },
+    {
+      "name": "Mobile page has no horizontal overflow",
+      "passed": true,
+      "observed": {
+        "body": 375,
+        "client": 375,
+        "scroll": 375
+      }
+    },
+    {
+      "name": "Mobile preset interaction recomputes",
+      "passed": true
+    },
+    {
+      "name": "Keyboard network inspection retains focus",
+      "passed": true,
+      "observed": "C1"
+    },
+    {
+      "name": "Mobile network has no horizontal overflow",
+      "passed": true,
+      "observed": {
+        "client": 375,
+        "scroll": 375
+      }
+    }
+  ]
+}

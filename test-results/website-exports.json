@@ -1,0 +1,47 @@
+{
+  "checks": [
+    {
+      "name": "Downloaded full scenario is the verified displayed model",
+      "passed": true,
+      "observed": {
+        "supplier": "S01",
+        "kind": "outage",
+        "capacity_percent": 50,
+        "delay_days": 8,
+        "budget": 238960,
+        "assembly_capacity": 10000,
+        "demand_percent": 100
+      }
+    },
+    {
+      "name": "Downloaded experiments contain six points and fifty fixed-purchase outcomes",
+      "passed": true,
+      "observed": {
+        "points": 6,
+        "outcomes": 50
+      }
+    },
+    {
+      "name": "Downloaded order CSV conserves fulfilled and unfilled units",
+      "passed": true,
+      "observed": {
+        "orders": 30,
+        "fulfilled": 138
+      }
+    },
+    {
+      "name": "Downloaded purchase CSV matches modeled cost",
+      "passed": true,
+      "observed": {
+        "cost": 119420
+      }
+    },
+    {
+      "name": "Downloaded report names the active scenario and verification",
+      "passed": true,
+      "observed": {
+        "bytes": 868
+      }
+    }
+  ]
+}

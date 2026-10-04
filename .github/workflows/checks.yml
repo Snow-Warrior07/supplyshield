@@ -18,6 +18,7 @@ jobs:
       - run: python -m pytest -q --junitxml=test-results/unit.xml
       - run: python scripts/evaluate.py
       - run: node scripts/browser_engine_tests.mjs
+      - run: node scripts/website_tests.mjs
       - name: Real HTTP integration
         run: |
           python -m uvicorn api:app --host 127.0.0.1 --port 8765 > /tmp/supplyshield-api.log 2>&1 &

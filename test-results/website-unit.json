@@ -1,0 +1,58 @@
+{
+  "tested_at_utc": "2026-10-04T17:49:28.823Z",
+  "passed": 10,
+  "total": 10,
+  "scope": "Website model, validation, sharing, exports and fixed-policy stress",
+  "checks": [
+    {
+      "name": "Default website result matches the hand-checked sample",
+      "passed": true,
+      "seconds": 0.021079800000000006
+    },
+    {
+      "name": "Demand scaling does not mutate the source; quantities remain whole units",
+      "passed": true,
+      "seconds": 0.0003061000000000007
+    },
+    {
+      "name": "High demand preserves material, capacity, budget and assembly feasibility",
+      "passed": true,
+      "seconds": 2.4373941999999995
+    },
+    {
+      "name": "Zero budget leaves all three policies with no purchases",
+      "passed": true,
+      "seconds": 2.0355349
+    },
+    {
+      "name": "Shared URLs reproduce valid inputs",
+      "passed": true,
+      "seconds": 0.0015503000000007888
+    },
+    {
+      "name": "Untrusted URL values are ignored; oversized, fractional and negative controls rejected",
+      "passed": true,
+      "seconds": 0.014308899999999994
+    },
+    {
+      "name": "Fixed-policy stress is reproducible and retains the original purchases",
+      "passed": true,
+      "seconds": 0.009720000000000254
+    },
+    {
+      "name": "Stress outcomes cannot reprocure after committed chips fail to arrive",
+      "passed": true,
+      "seconds": 0.00817739999999958
+    },
+    {
+      "name": "Budget points include zero and the requested budget without duplicates",
+      "passed": true,
+      "seconds": 0.000207300000000032
+    },
+    {
+      "name": "CSV exports escape formula text and embedded quotes",
+      "passed": true,
+      "seconds": 0.0004687000000003536
+    }
+  ]
+}
