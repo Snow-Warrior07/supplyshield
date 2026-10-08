@@ -1,4 +1,4 @@
-"""Publish repeatable extension results, without claims of estimated probabilities."""
+"Publish repeatable extension results, without claims of estimated probabilities."
 import json
 import sys
 from datetime import datetime, timezone
